@@ -1,0 +1,59 @@
+[
+  {
+    "id": "btn1",
+    "label": "Pasta",
+    "src": "/menuImages/btnImages/pasta.jpg",
+    "dataFile": "pasta.json"
+  },
+  {
+    "id": "btn2",
+    "label": "Cake",
+    "src": "/menuImages/btnImages/cake.jpg",
+    "dataFile": "cake.json"
+    
+  },
+  {
+    "id": "btn3",
+    "label": "Sandwich",
+    "src": "/menuImages/btnImages/sandwich.jpg",
+    "dataFile": "sandwich.json"
+  },
+   {
+    "id": "btn4",
+    "label": "Pasta",
+    "src": "/menuImages/btnImages/pasta.jpg",
+    "dataFile": "pasta.json"
+  },
+  {
+    "id": "btn5",
+    "label": "Cake",
+    "src": "/menuImages/btnImages/cake.jpg",
+    "dataFile": "cake.json"
+    
+  },
+  {
+    "id": "btn6",
+    "label": "Sandwich",
+    "src": "/menuImages/btnImages/sandwich.jpg",
+    "dataFile": "sandwich.json"
+  },
+  {
+    "id": "btn7",
+    "label": "Pasta",
+    "src": "/menuImages/btnImages/pasta.jpg",
+    "dataFile": "pasta.json"
+  },
+  {
+    "id": "btn8",
+    "label": "Cake",
+    "src": "/menuImages/btnImages/cake.jpg",
+    "dataFile": "cake.json"
+    
+  },
+  {
+    "id": "btn9",
+    "label": "Sandwich",
+    "src": "/menuImages/btnImages/sandwich.jpg",
+    "dataFile": "sandwich.json"
+  }
+]

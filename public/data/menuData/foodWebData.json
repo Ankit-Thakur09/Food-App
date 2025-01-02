@@ -1,0 +1,829 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Appetizers",
+            "items": [
+                {
+                    "id": 1,
+                    "name": "Sample Item 1 in Appetizers",
+                    "description": "A delicious example item 1 from Appetizers category.",
+                    "price": 5.99,
+                    "rating": 4.0
+                },
+                {
+                    "id": 2,
+                    "name": "Sample Item 2 in Appetizers",
+                    "description": "A delicious example item 2 from Appetizers category.",
+                    "price": 7.99,
+                    "rating": 4.2
+                },
+                {
+                    "id": 3,
+                    "name": "Sample Item 3 in Appetizers",
+                    "description": "A delicious example item 3 from Appetizers category.",
+                    "price": 9.99,
+                    "rating": 4.4
+                },
+                {
+                    "id": 4,
+                    "name": "Sample Item 4 in Appetizers",
+                    "description": "A delicious example item 4 from Appetizers category.",
+                    "price": 11.99,
+                    "rating": 4.0
+                },
+                {
+                    "id": 5,
+                    "name": "Sample Item 5 in Appetizers",
+                    "description": "A delicious example item 5 from Appetizers category.",
+                    "price": 13.99,
+                    "rating": 4.2
+                },
+                {
+                    "id": 6,
+                    "name": "Sample Item 6 in Appetizers",
+                    "description": "A delicious example item 6 from Appetizers category.",
+                    "price": 15.99,
+                    "rating": 4.4
+                },
+                {
+                    "id": 7,
+                    "name": "Sample Item 7 in Appetizers",
+                    "description": "A delicious example item 7 from Appetizers category.",
+                    "price": 17.99,
+                    "rating": 4.0
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Soups",
+            "items": [
+                {
+                    "id": 8,
+                    "name": "Sample Item 1 in Soups",
+                    "description": "A delicious example item 1 from Soups category.",
+                    "price": 5.99,
+                    "rating": 4.0
+                },
+                {
+                    "id": 9,
+                    "name": "Sample Item 2 in Soups",
+                    "description": "A delicious example item 2 from Soups category.",
+                    "price": 7.99,
+                    "rating": 4.2
+                },
+                {
+                    "id": 10,
+                    "name": "Sample Item 3 in Soups",
+                    "description": "A delicious example item 3 from Soups category.",
+                    "price": 9.99,
+                    "rating": 4.4
+                },
+                {
+                    "id": 11,
+                    "name": "Sample Item 4 in Soups",
+                    "description": "A delicious example item 4 from Soups category.",
+                    "price": 11.99,
+                    "rating": 4.0
+                },
+                {
+                    "id": 12,
+                    "name": "Sample Item 5 in Soups",
+                    "description": "A delicious example item 5 from Soups category.",
+                    "price": 13.99,
+                    "rating": 4.2
+                },
+                {
+                    "id": 13,
+                    "name": "Sample Item 6 in Soups",
+                    "description": "A delicious example item 6 from Soups category.",
+                    "price": 15.99,
+                    "rating": 4.4
+                },
+                {
+                    "id": 14,
+                    "name": "Sample Item 7 in Soups",
+                    "description": "A delicious example item 7 from Soups category.",
+                    "price": 17.99,
+                    "rating": 4.0
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Salads",
+            "items": [
+                {
+                    "id": 15,
+                    "name": "Sample Item 1 in Salads",
+                    "description": "A delicious example item 1 from Salads category.",
+                    "price": 5.99,
+                    "rating": 4.0
+                },
+                {
+                    "id": 16,
+                    "name": "Sample Item 2 in Salads",
+                    "description": "A delicious example item 2 from Salads category.",
+                    "price": 7.99,
+                    "rating": 4.2
+                },
+                {
+                    "id": 17,
+                    "name": "Sample Item 3 in Salads",
+                    "description": "A delicious example item 3 from Salads category.",
+                    "price": 9.99,
+                    "rating": 4.4
+                },
+                {
+                    "id": 18,
+                    "name": "Sample Item 4 in Salads",
+                    "description": "A delicious example item 4 from Salads category.",
+                    "price": 11.99,
+                    "rating": 4.0
+                },
+                {
+                    "id": 19,
+                    "name": "Sample Item 5 in Salads",
+                    "description": "A delicious example item 5 from Salads category.",
+                    "price": 13.99,
+                    "rating": 4.2
+                },
+                {
+                    "id": 20,
+                    "name": "Sample Item 6 in Salads",
+                    "description": "A delicious example item 6 from Salads category.",
+                    "price": 15.99,
+                    "rating": 4.4
+                },
+                {
+                    "id": 21,
+                    "name": "Sample Item 7 in Salads",
+                    "description": "A delicious example item 7 from Salads category.",
+                    "price": 17.99,
+                    "rating": 4.0
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Pasta",
+            "items": [
+                {
+                    "id": 22,
+                    "name": "Sample Item 1 in Pasta",
+                    "description": "A delicious example item 1 from Pasta category.",
+                    "price": 5.99,
+                    "rating": 4.0
+                },
+                {
+                    "id": 23,
+                    "name": "Sample Item 2 in Pasta",
+                    "description": "A delicious example item 2 from Pasta category.",
+                    "price": 7.99,
+                    "rating": 4.2
+                },
+                {
+                    "id": 24,
+                    "name": "Sample Item 3 in Pasta",
+                    "description": "A delicious example item 3 from Pasta category.",
+                    "price": 9.99,
+                    "rating": 4.4
+                },
+                {
+                    "id": 25,
+                    "name": "Sample Item 4 in Pasta",
+                    "description": "A delicious example item 4 from Pasta category.",
+                    "price": 11.99,
+                    "rating": 4.0
+                },
+                {
+                    "id": 26,
+                    "name": "Sample Item 5 in Pasta",
+                    "description": "A delicious example item 5 from Pasta category.",
+                    "price": 13.99,
+                    "rating": 4.2
+                },
+                {
+                    "id": 27,
+                    "name": "Sample Item 6 in Pasta",
+                    "description": "A delicious example item 6 from Pasta category.",
+                    "price": 15.99,
+                    "rating": 4.4
+                },
+                {
+                    "id": 28,
+                    "name": "Sample Item 7 in Pasta",
+                    "description": "A delicious example item 7 from Pasta category.",
+                    "price": 17.99,
+                    "rating": 4.0
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Burgers",
+            "items": [
+                {
+                    "id": 29,
+                    "name": "Sample Item 1 in Burgers",
+                    "description": "A delicious example item 1 from Burgers category.",
+                    "price": 5.99,
+                    "rating": 4.0
+                },
+                {
+                    "id": 30,
+                    "name": "Sample Item 2 in Burgers",
+                    "description": "A delicious example item 2 from Burgers category.",
+                    "price": 7.99,
+                    "rating": 4.2
+                },
+                {
+                    "id": 31,
+                    "name": "Sample Item 3 in Burgers",
+                    "description": "A delicious example item 3 from Burgers category.",
+                    "price": 9.99,
+                    "rating": 4.4
+                },
+                {
+                    "id": 32,
+                    "name": "Sample Item 4 in Burgers",
+                    "description": "A delicious example item 4 from Burgers category.",
+                    "price": 11.99,
+                    "rating": 4.0
+                },
+                {
+                    "id": 33,
+                    "name": "Sample Item 5 in Burgers",
+                    "description": "A delicious example item 5 from Burgers category.",
+                    "price": 13.99,
+                    "rating": 4.2
+                },
+                {
+                    "id": 34,
+                    "name": "Sample Item 6 in Burgers",
+                    "description": "A delicious example item 6 from Burgers category.",
+                    "price": 15.99,
+                    "rating": 4.4
+                },
+                {
+                    "id": 35,
+                    "name": "Sample Item 7 in Burgers",
+                    "description": "A delicious example item 7 from Burgers category.",
+                    "price": 17.99,
+                    "rating": 4.0
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Pizza",
+            "items": [
+                {
+                    "id": 36,
+                    "name": "Sample Item 1 in Pizza",
+                    "description": "A delicious example item 1 from Pizza category.",
+                    "price": 5.99,
+                    "rating": 4.0
+                },
+                {
+                    "id": 37,
+                    "name": "Sample Item 2 in Pizza",
+                    "description": "A delicious example item 2 from Pizza category.",
+                    "price": 7.99,
+                    "rating": 4.2
+                },
+                {
+                    "id": 38,
+                    "name": "Sample Item 3 in Pizza",
+                    "description": "A delicious example item 3 from Pizza category.",
+                    "price": 9.99,
+                    "rating": 4.4
+                },
+                {
+                    "id": 39,
+                    "name": "Sample Item 4 in Pizza",
+                    "description": "A delicious example item 4 from Pizza category.",
+                    "price": 11.99,
+                    "rating": 4.0
+                },
+                {
+                    "id": 40,
+                    "name": "Sample Item 5 in Pizza",
+                    "description": "A delicious example item 5 from Pizza category.",
+                    "price": 13.99,
+                    "rating": 4.2
+                },
+                {
+                    "id": 41,
+                    "name": "Sample Item 6 in Pizza",
+                    "description": "A delicious example item 6 from Pizza category.",
+                    "price": 15.99,
+                    "rating": 4.4
+                },
+                {
+                    "id": 42,
+                    "name": "Sample Item 7 in Pizza",
+                    "description": "A delicious example item 7 from Pizza category.",
+                    "price": 17.99,
+                    "rating": 4.0
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Seafood",
+            "items": [
+                {
+                    "id": 43,
+                    "name": "Sample Item 1 in Seafood",
+                    "description": "A delicious example item 1 from Seafood category.",
+                    "price": 5.99,
+                    "rating": 4.0
+                },
+                {
+                    "id": 44,
+                    "name": "Sample Item 2 in Seafood",
+                    "description": "A delicious example item 2 from Seafood category.",
+                    "price": 7.99,
+                    "rating": 4.2
+                },
+                {
+                    "id": 45,
+                    "name": "Sample Item 3 in Seafood",
+                    "description": "A delicious example item 3 from Seafood category.",
+                    "price": 9.99,
+                    "rating": 4.4
+                },
+                {
+                    "id": 46,
+                    "name": "Sample Item 4 in Seafood",
+                    "description": "A delicious example item 4 from Seafood category.",
+                    "price": 11.99,
+                    "rating": 4.0
+                },
+                {
+                    "id": 47,
+                    "name": "Sample Item 5 in Seafood",
+                    "description": "A delicious example item 5 from Seafood category.",
+                    "price": 13.99,
+                    "rating": 4.2
+                },
+                {
+                    "id": 48,
+                    "name": "Sample Item 6 in Seafood",
+                    "description": "A delicious example item 6 from Seafood category.",
+                    "price": 15.99,
+                    "rating": 4.4
+                },
+                {
+                    "id": 49,
+                    "name": "Sample Item 7 in Seafood",
+                    "description": "A delicious example item 7 from Seafood category.",
+                    "price": 17.99,
+                    "rating": 4.0
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Sandwiches",
+            "items": [
+                {
+                    "id": 50,
+                    "name": "Sample Item 1 in Sandwiches",
+                    "description": "A delicious example item 1 from Sandwiches category.",
+                    "price": 5.99,
+                    "rating": 4.0
+                },
+                {
+                    "id": 51,
+                    "name": "Sample Item 2 in Sandwiches",
+                    "description": "A delicious example item 2 from Sandwiches category.",
+                    "price": 7.99,
+                    "rating": 4.2
+                },
+                {
+                    "id": 52,
+                    "name": "Sample Item 3 in Sandwiches",
+                    "description": "A delicious example item 3 from Sandwiches category.",
+                    "price": 9.99,
+                    "rating": 4.4
+                },
+                {
+                    "id": 53,
+                    "name": "Sample Item 4 in Sandwiches",
+                    "description": "A delicious example item 4 from Sandwiches category.",
+                    "price": 11.99,
+                    "rating": 4.0
+                },
+                {
+                    "id": 54,
+                    "name": "Sample Item 5 in Sandwiches",
+                    "description": "A delicious example item 5 from Sandwiches category.",
+                    "price": 13.99,
+                    "rating": 4.2
+                },
+                {
+                    "id": 55,
+                    "name": "Sample Item 6 in Sandwiches",
+                    "description": "A delicious example item 6 from Sandwiches category.",
+                    "price": 15.99,
+                    "rating": 4.4
+                },
+                {
+                    "id": 56,
+                    "name": "Sample Item 7 in Sandwiches",
+                    "description": "A delicious example item 7 from Sandwiches category.",
+                    "price": 17.99,
+                    "rating": 4.0
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Desserts",
+            "items": [
+                {
+                    "id": 57,
+                    "name": "Sample Item 1 in Desserts",
+                    "description": "A delicious example item 1 from Desserts category.",
+                    "price": 5.99,
+                    "rating": 4.0
+                },
+                {
+                    "id": 58,
+                    "name": "Sample Item 2 in Desserts",
+                    "description": "A delicious example item 2 from Desserts category.",
+                    "price": 7.99,
+                    "rating": 4.2
+                },
+                {
+                    "id": 59,
+                    "name": "Sample Item 3 in Desserts",
+                    "description": "A delicious example item 3 from Desserts category.",
+                    "price": 9.99,
+                    "rating": 4.4
+                },
+                {
+                    "id": 60,
+                    "name": "Sample Item 4 in Desserts",
+                    "description": "A delicious example item 4 from Desserts category.",
+                    "price": 11.99,
+                    "rating": 4.0
+                },
+                {
+                    "id": 61,
+                    "name": "Sample Item 5 in Desserts",
+                    "description": "A delicious example item 5 from Desserts category.",
+                    "price": 13.99,
+                    "rating": 4.2
+                },
+                {
+                    "id": 62,
+                    "name": "Sample Item 6 in Desserts",
+                    "description": "A delicious example item 6 from Desserts category.",
+                    "price": 15.99,
+                    "rating": 4.4
+                },
+                {
+                    "id": 63,
+                    "name": "Sample Item 7 in Desserts",
+                    "description": "A delicious example item 7 from Desserts category.",
+                    "price": 17.99,
+                    "rating": 4.0
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Drinks",
+            "items": [
+                {
+                    "id": 64,
+                    "name": "Sample Item 1 in Drinks",
+                    "description": "A delicious example item 1 from Drinks category.",
+                    "price": 5.99,
+                    "rating": 4.0
+                },
+                {
+                    "id": 65,
+                    "name": "Sample Item 2 in Drinks",
+                    "description": "A delicious example item 2 from Drinks category.",
+                    "price": 7.99,
+                    "rating": 4.2
+                },
+                {
+                    "id": 66,
+                    "name": "Sample Item 3 in Drinks",
+                    "description": "A delicious example item 3 from Drinks category.",
+                    "price": 9.99,
+                    "rating": 4.4
+                },
+                {
+                    "id": 67,
+                    "name": "Sample Item 4 in Drinks",
+                    "description": "A delicious example item 4 from Drinks category.",
+                    "price": 11.99,
+                    "rating": 4.0
+                },
+                {
+                    "id": 68,
+                    "name": "Sample Item 5 in Drinks",
+                    "description": "A delicious example item 5 from Drinks category.",
+                    "price": 13.99,
+                    "rating": 4.2
+                },
+                {
+                    "id": 69,
+                    "name": "Sample Item 6 in Drinks",
+                    "description": "A delicious example item 6 from Drinks category.",
+                    "price": 15.99,
+                    "rating": 4.4
+                },
+                {
+                    "id": 70,
+                    "name": "Sample Item 7 in Drinks",
+                    "description": "A delicious example item 7 from Drinks category.",
+                    "price": 17.99,
+                    "rating": 4.0
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Breakfast",
+            "items": [
+                {
+                    "id": 71,
+                    "name": "Sample Item 1 in Breakfast",
+                    "description": "A delicious example item 1 from Breakfast category.",
+                    "price": 5.99,
+                    "rating": 4.0
+                },
+                {
+                    "id": 72,
+                    "name": "Sample Item 2 in Breakfast",
+                    "description": "A delicious example item 2 from Breakfast category.",
+                    "price": 7.99,
+                    "rating": 4.2
+                },
+                {
+                    "id": 73,
+                    "name": "Sample Item 3 in Breakfast",
+                    "description": "A delicious example item 3 from Breakfast category.",
+                    "price": 9.99,
+                    "rating": 4.4
+                },
+                {
+                    "id": 74,
+                    "name": "Sample Item 4 in Breakfast",
+                    "description": "A delicious example item 4 from Breakfast category.",
+                    "price": 11.99,
+                    "rating": 4.0
+                },
+                {
+                    "id": 75,
+                    "name": "Sample Item 5 in Breakfast",
+                    "description": "A delicious example item 5 from Breakfast category.",
+                    "price": 13.99,
+                    "rating": 4.2
+                },
+                {
+                    "id": 76,
+                    "name": "Sample Item 6 in Breakfast",
+                    "description": "A delicious example item 6 from Breakfast category.",
+                    "price": 15.99,
+                    "rating": 4.4
+                },
+                {
+                    "id": 77,
+                    "name": "Sample Item 7 in Breakfast",
+                    "description": "A delicious example item 7 from Breakfast category.",
+                    "price": 17.99,
+                    "rating": 4.0
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Grilled",
+            "items": [
+                {
+                    "id": 78,
+                    "name": "Sample Item 1 in Grilled",
+                    "description": "A delicious example item 1 from Grilled category.",
+                    "price": 5.99,
+                    "rating": 4.0
+                },
+                {
+                    "id": 79,
+                    "name": "Sample Item 2 in Grilled",
+                    "description": "A delicious example item 2 from Grilled category.",
+                    "price": 7.99,
+                    "rating": 4.2
+                },
+                {
+                    "id": 80,
+                    "name": "Sample Item 3 in Grilled",
+                    "description": "A delicious example item 3 from Grilled category.",
+                    "price": 9.99,
+                    "rating": 4.4
+                },
+                {
+                    "id": 81,
+                    "name": "Sample Item 4 in Grilled",
+                    "description": "A delicious example item 4 from Grilled category.",
+                    "price": 11.99,
+                    "rating": 4.0
+                },
+                {
+                    "id": 82,
+                    "name": "Sample Item 5 in Grilled",
+                    "description": "A delicious example item 5 from Grilled category.",
+                    "price": 13.99,
+                    "rating": 4.2
+                },
+                {
+                    "id": 83,
+                    "name": "Sample Item 6 in Grilled",
+                    "description": "A delicious example item 6 from Grilled category.",
+                    "price": 15.99,
+                    "rating": 4.4
+                },
+                {
+                    "id": 84,
+                    "name": "Sample Item 7 in Grilled",
+                    "description": "A delicious example item 7 from Grilled category.",
+                    "price": 17.99,
+                    "rating": 4.0
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Vegan",
+            "items": [
+                {
+                    "id": 85,
+                    "name": "Sample Item 1 in Vegan",
+                    "description": "A delicious example item 1 from Vegan category.",
+                    "price": 5.99,
+                    "rating": 4.0
+                },
+                {
+                    "id": 86,
+                    "name": "Sample Item 2 in Vegan",
+                    "description": "A delicious example item 2 from Vegan category.",
+                    "price": 7.99,
+                    "rating": 4.2
+                },
+                {
+                    "id": 87,
+                    "name": "Sample Item 3 in Vegan",
+                    "description": "A delicious example item 3 from Vegan category.",
+                    "price": 9.99,
+                    "rating": 4.4
+                },
+                {
+                    "id": 88,
+                    "name": "Sample Item 4 in Vegan",
+                    "description": "A delicious example item 4 from Vegan category.",
+                    "price": 11.99,
+                    "rating": 4.0
+                },
+                {
+                    "id": 89,
+                    "name": "Sample Item 5 in Vegan",
+                    "description": "A delicious example item 5 from Vegan category.",
+                    "price": 13.99,
+                    "rating": 4.2
+                },
+                {
+                    "id": 90,
+                    "name": "Sample Item 6 in Vegan",
+                    "description": "A delicious example item 6 from Vegan category.",
+                    "price": 15.99,
+                    "rating": 4.4
+                },
+                {
+                    "id": 91,
+                    "name": "Sample Item 7 in Vegan",
+                    "description": "A delicious example item 7 from Vegan category.",
+                    "price": 17.99,
+                    "rating": 4.0
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Kids Menu",
+            "items": [
+                {
+                    "id": 92,
+                    "name": "Sample Item 1 in Kids Menu",
+                    "description": "A delicious example item 1 from Kids Menu category.",
+                    "price": 5.99,
+                    "rating": 4.0
+                },
+                {
+                    "id": 93,
+                    "name": "Sample Item 2 in Kids Menu",
+                    "description": "A delicious example item 2 from Kids Menu category.",
+                    "price": 7.99,
+                    "rating": 4.2
+                },
+                {
+                    "id": 94,
+                    "name": "Sample Item 3 in Kids Menu",
+                    "description": "A delicious example item 3 from Kids Menu category.",
+                    "price": 9.99,
+                    "rating": 4.4
+                },
+                {
+                    "id": 95,
+                    "name": "Sample Item 4 in Kids Menu",
+                    "description": "A delicious example item 4 from Kids Menu category.",
+                    "price": 11.99,
+                    "rating": 4.0
+                },
+                {
+                    "id": 96,
+                    "name": "Sample Item 5 in Kids Menu",
+                    "description": "A delicious example item 5 from Kids Menu category.",
+                    "price": 13.99,
+                    "rating": 4.2
+                },
+                {
+                    "id": 97,
+                    "name": "Sample Item 6 in Kids Menu",
+                    "description": "A delicious example item 6 from Kids Menu category.",
+                    "price": 15.99,
+                    "rating": 4.4
+                },
+                {
+                    "id": 98,
+                    "name": "Sample Item 7 in Kids Menu",
+                    "description": "A delicious example item 7 from Kids Menu category.",
+                    "price": 17.99,
+                    "rating": 4.0
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Sides",
+            "items": [
+                {
+                    "id": 99,
+                    "name": "Sample Item 1 in Sides",
+                    "description": "A delicious example item 1 from Sides category.",
+                    "price": 5.99,
+                    "rating": 4.0
+                },
+                {
+                    "id": 100,
+                    "name": "Sample Item 2 in Sides",
+                    "description": "A delicious example item 2 from Sides category.",
+                    "price": 7.99,
+                    "rating": 4.2
+                },
+                {
+                    "id": 101,
+                    "name": "Sample Item 3 in Sides",
+                    "description": "A delicious example item 3 from Sides category.",
+                    "price": 9.99,
+                    "rating": 4.4
+                },
+                {
+                    "id": 102,
+                    "name": "Sample Item 4 in Sides",
+                    "description": "A delicious example item 4 from Sides category.",
+                    "price": 11.99,
+                    "rating": 4.0
+                },
+                {
+                    "id": 103,
+                    "name": "Sample Item 5 in Sides",
+                    "description": "A delicious example item 5 from Sides category.",
+                    "price": 13.99,
+                    "rating": 4.2
+                },
+                {
+                    "id": 104,
+                    "name": "Sample Item 6 in Sides",
+                    "description": "A delicious example item 6 from Sides category.",
+                    "price": 15.99,
+                    "rating": 4.4
+                },
+                {
+                    "id": 105,
+                    "name": "Sample Item 7 in Sides",
+                    "description": "A delicious example item 7 from Sides category.",
+                    "price": 17.99,
+                    "rating": 4.0
+                }
+            ]
+        }
+    ]
+}
