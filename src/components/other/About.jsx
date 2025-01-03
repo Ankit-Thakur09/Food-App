@@ -1,95 +1,87 @@
 // import React from "react";
 
-import { useSelector } from "react-redux";
+import { NavLink } from "react-router-dom";
 
-function About() {
-   const count = useSelector((state) => state.counter.value);
+const About = () => {
   return (
-    <>
-      <div className="bg-gray-900 h-screen flex items-center justify-center">
-        <div className="bg-white h-[16rem] w-[30rem] m-auto border rounded-[2.5rem] rounded-br-3xl border-white overflow-hidden">
-          <div className="h-[15.4rem] w-[29.4rem] bg-gray-900 rounded-3xl rounded-br-2xl text-white text-center"> count{ count}</div>
+    <div className="bg-gradient-to-b from-yellow-50 to-orange-100 py-12 px-6 text-gray-800">
+      <div className="max-w-6xl mx-auto text-center">
+        {/* Heading */}
+        <h2 className="text-4xl font-extrabold mb-4">
+          About <span className="text-orange-500">Us</span>
+        </h2>
+        <p className="text-lg mb-8">
+          Welcome to <strong>[Your Website Name]</strong>, where passion for
+          food meets the joy of sharing. Explore authentic flavors, crafted with
+          love and precision, to delight your taste buds.
+        </p>
+
+        {/* Interactive Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
+          {/* Card 1 */}
+          <div className="group bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+            <div className="p-6">
+              <h3 className="text-2xl font-semibold mb-3 text-orange-500 group-hover:text-orange-600 transition-colors">
+                Farm-Fresh Ingredients
+              </h3>
+              <p>
+                We source locally grown produce and premium ingredients to craft
+                meals that are as fresh as they are flavorful.
+              </p>
+            </div>
+            <div className="bg-orange-100 p-4 text-orange-600 font-bold opacity-0 group-hover:opacity-100 transition-opacity">
+              Discover More →
+            </div>
+          </div>
+
+          {/* Card 2 */}
+          <div className="group bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+            <div className="p-6">
+              <h3 className="text-2xl font-semibold mb-3 text-orange-500 group-hover:text-orange-600 transition-colors">
+                Authentic Recipes
+              </h3>
+              <p>
+                Our chefs combine timeless techniques with modern twists to
+                create dishes you will always remember.
+              </p>
+            </div>
+            <div className="bg-orange-100 p-4 text-orange-600 font-bold opacity-0 group-hover:opacity-100 transition-opacity">
+              Discover More →
+            </div>
+          </div>
+
+          {/* Card 3 */}
+          <div className="group bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+            <div className="p-6">
+              <h3 className="text-2xl font-semibold mb-3 text-orange-500 group-hover:text-orange-600 transition-colors">
+                Passionate Service
+              </h3>
+              <p>
+                From the moment you arrive to the last bite, our team is
+                dedicated to ensuring an exceptional dining experience.
+              </p>
+            </div>
+            <div className="bg-orange-100 p-4 text-orange-600 font-bold opacity-0 group-hover:opacity-100 transition-opacity">
+              Discover More →
+            </div>
+          </div>
+        </div>
+
+        {/* CTA Section */}
+        <div className="mt-12">
+          <p className="text-lg mb-4">
+            Let us take you on a culinary journey that’s as exciting as it is
+            delicious.
+          </p>
+          <NavLink to="/menu">
+            <button className="bg-orange-500 text-white px-6 py-3 rounded-full shadow-md hover:bg-orange-600 transition-all">
+              Explore Our Menu
+            </button>
+          </NavLink>
         </div>
       </div>
-    </>
-    // <div className="p-8 bg-gray-50">
-    //   <div className="max-w-7xl mx-auto">
-    //     {/* Header Section */}
-    //     <header className="text-center mb-12">
-    //       <h1 className="text-4xl font-bold text-gray-800">About Us</h1>
-    //       <p className="text-lg text-gray-600 mt-2">
-    //         We deliver delicious meals right to your doorstep!
-    //       </p>
-    //     </header>
-
-    //     {/* Company Description Section */}
-    //     <section className="mb-16">
-    //       <h2 className="text-2xl font-semibold text-gray-800">Who We Are</h2>
-    //       <p className="text-lg text-gray-600 mt-4">
-    //         At Foodie Delivery, we believe that food is not just sustenance, but
-    //         an experience. We strive to bring you the finest meals from top
-    //         restaurants, delivered fast and fresh to your doorstep.
-    //       </p>
-    //     </section>
-
-    //     {/* Mission Section */}
-    //     <section className="mb-16">
-    //       <h2 className="text-2xl font-semibold text-gray-800">Our Mission</h2>
-    //       <p className="text-lg text-gray-600 mt-4">
-    //         Our mission is to make food delivery easy, fast, and affordable for
-    //         everyone. We partner with local restaurants to provide a wide
-    //         variety of meal options, ensuring there is something for every
-    //         taste.
-    //       </p>
-    //     </section>
-
-    //     {/* Values Section */}
-    //     <section className="mb-16">
-    //       <h2 className="text-2xl font-semibold text-gray-800">Our Values</h2>
-    //       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-4">
-    //         <div className="bg-white p-6 rounded-lg shadow-lg text-center">
-    //           <h3 className="font-semibold text-xl text-gray-800">Quality</h3>
-    //           <p className="text-gray-600 mt-2">
-    //             We prioritize quality in every dish we deliver.
-    //           </p>
-    //         </div>
-    //         <div className="bg-white p-6 rounded-lg shadow-lg text-center">
-    //           <h3 className="font-semibold text-xl text-gray-800">
-    //             Customer Satisfaction
-    //           </h3>
-    //           <p className="text-gray-600 mt-2">
-    //             Our customers are at the heart of everything we do.
-    //           </p>
-    //         </div>
-    //         <div className="bg-white p-6 rounded-lg shadow-lg text-center">
-    //           <h3 className="font-semibold text-xl text-gray-800">
-    //             Innovation
-    //           </h3>
-    //           <p className="text-gray-600 mt-2">
-    //             We are constantly looking for ways to improve and innovate.
-    //           </p>
-    //         </div>
-    //       </div>
-    //     </section>
-
-    //     {/* Contact Section */}
-    //     <section className="text-center">
-    //       <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-    //         Get in Touch
-    //       </h2>
-    //       <p className="text-lg text-gray-600 mb-6">
-    //         Have any questions or feedback? We had love to hear from you!
-    //       </p>
-    //       <a
-    //         href="mailto:ankitThakur12499@gmail.com"
-    //         className="inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition duration-300"
-    //       >
-    //         Contact Us
-    //       </a>
-    //     </section>
-    //   </div>
-    // </div>
+    </div>
   );
-}
+};
 
 export default About;

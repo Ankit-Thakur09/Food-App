@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 function Category({ categories, selectedCategory, onCategorySelect }) {
   return (
-    <div>
+    <div className="grid grid-flow-col overflow-x-auto gap-2 ">
       <button
         onClick={() => onCategorySelect(null)}
         style={{

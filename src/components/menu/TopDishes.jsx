@@ -7,7 +7,14 @@ function TopDishes({ topDish }) {
   }
   return (
     <>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
+      <div className="p-6">
+        <div className="text-2xl font-bold">Explore Our Top Dishes</div>
+        <div className="font-semibold">
+          Savor the Best of Culinary Excellence with Our Handpicked Top Dishes,
+          Crafted to Delight Every Palate!
+        </div>
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4  gap-6 p-6">
         {topDish.map((dish) => (
           <div
             key={dish.id}

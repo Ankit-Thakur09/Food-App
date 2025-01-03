@@ -10,11 +10,11 @@ const MenuCard = ({ dishes, selectedCategory }) => {
     : dishes;
   return (
     <>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-6 p-6">
         {filteredDishes.map((dish) => (
           <div
             key={dish.id}
-            className="bg-white shadow-lg rounded-lg overflow-hidden border border-gray-200"
+            className="bg-[#ffffff] shadow-lg rounded-lg overflow-hidden border border-gray-200"
           >
             <div className="p-4">
               <h2 className="text-lg font-semibold text-gray-800">
@@ -40,7 +40,6 @@ const MenuCard = ({ dishes, selectedCategory }) => {
           </div>
         ))}
       </div>
-      
     </>
   );
 };
