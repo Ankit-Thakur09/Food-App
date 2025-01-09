@@ -45,7 +45,7 @@ function MenuPage({isHidden=true}) {
 
         // console.log("Filtered",initialFilter);
         setTopDishes(initialFilter);
-        console.log(topDishes);
+        // console.log(topDishes);
         setLoading(false);
       })
 

@@ -25,7 +25,7 @@ function ContactUs() {
     //   newErrors.mobile = "Please enter a valid 10-digit mobile number.";
     // }
     if (!formData.message) {
-      newErrors.message = "Requirement field cannot be empty.";
+      newErrors.message = "Enter your message.";
     }
     if (!formData.fullName) {
       newErrors.fullName = "Enter your name.";

@@ -7,7 +7,7 @@ import {
 } from "../../feature/CounterThis";
 import { useEffect } from "react";
 
-function Counter({ dishId, dishName, dishPrice }) {
+function Counter({ dishId, dishName, dishPrice, dishImg }) {
   const dispatch = useDispatch();
 
   // Safely initialize counter value for the dishId
@@ -26,25 +26,25 @@ function Counter({ dishId, dishName, dishPrice }) {
         text: dishName,
         price: dishPrice,
         quantity: 1,
+        img: dishImg,
       })
     );
   };
 
   const handleIncrement = () => {
     // Increment the counter for this dish
-   
-if (counter < 10) {
-  dispatch(increment(dishId));
-   dispatch(
-     addedToCart({
-       text: dishName,
-       price: dishPrice,
-       quantity: counter + 1, // Increment the quantity
-     })
-   );
+
+    if (counter < 10) {
+      dispatch(increment(dishId));
+      dispatch(
+        addedToCart({
+          text: dishName,
+          price: dishPrice,
+          quantity: counter + 1, // Increment the quantity
+        })
+      );
     }
     // Update the cart with the new quantity
-   
   };
 
   const handleDecrement = () => {

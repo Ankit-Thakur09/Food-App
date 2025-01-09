@@ -3,13 +3,16 @@ import { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { RxCross2 } from "react-icons/rx";
 import { TiShoppingCart } from "react-icons/ti";
-
+import { useSelector } from "react-redux";
+ 
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
+
   const navBartoggle = () => {
     setIsOpen(!isOpen);
   };
+  const cart = useSelector((state) => state.counter.totalQuantity);
   return (
     <>
       <div className="flex justify-between font-semibold bg-slate-200 text-white md:items-center p-2 fixed z-40 opacity-80 w-full">
@@ -59,10 +62,13 @@ function Header() {
               <NavLink
                 to="/cart"
                 className={({ isActive }) =>
-                  `py-2 my-1.5  ${isActive ? " font-bold text-orange-400" : ""}`
+                  `py-2 my-1.5  ${
+                    isActive ? " font-bold text-orange-400" : ""
+                  } flex`
                 }
               >
                 <TiShoppingCart className="text-2xl mx-auto" />
+                <span>{cart}</span>
               </NavLink>
             </div>
           </nav>
