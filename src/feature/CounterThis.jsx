@@ -47,9 +47,9 @@ export const counterSlice = createSlice({
       const price = Number(action.payload.price);
       const text = action.payload.text;
       const img = action.payload.img;
+      const id = action.payload.dishId;
 
       const existingItem = state.cart.find((item) => item.text === text);
-      
 
       if (existingItem) {
         // Update the quantity and total of the existing item
@@ -68,6 +68,7 @@ export const counterSlice = createSlice({
           quantity: quantity,
           total: quantity * price,
           img: img,
+          id: id,
         });
       }
       state.totalQuantity = state.cart.reduce(
@@ -76,27 +77,10 @@ export const counterSlice = createSlice({
       );
       state.totalPrice = state.cart.reduce((acc, item) => acc + item.total, 0);
     },
-    deleteCard(state, action) {
-      const cardId = action.payload; // Get cardId from payload
+    deleteItem(state, action) {
+      const cardId = action.payload;
       state.counters[cardId] = 0;
-
-      // Reset counter for the specific card
-      // delete state.counters[cardId];
-      
-
-      // Remove the card from the cart
-      state.cart = state.cart.filter((item) => item.dishid !== cardId);
-      
-     
-      // Recalculate totalQuantity and totalPrice
-      state.totalQuantity = state.cart.reduce(
-        (acc, item) => acc + item.quantity,
-        0
-      );
-      state.totalPrice = state.cart.reduce((acc, item) => acc + item.total, 0);
-     
     },
-
     deleteAll() {
       return {
         counters: {}, // Reset counters
@@ -116,7 +100,7 @@ export const {
   addedToCart,
   setTotals,
   deleteAll,
-  deleteCard,
+  deleteItem,
 } = counterSlice.actions;
 
 export default counterSlice.reducer;

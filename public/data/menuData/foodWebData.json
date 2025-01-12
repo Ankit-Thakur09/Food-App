@@ -71,57 +71,57 @@
         {
           "imgSrc": "",
           "id": 8,
-          "name": "Sample Item 1 in Soups",
-          "description": "A delicious example item 1 from Soups category.",
-          "price": 5.99,
-          "rating": 4.0
+          "name": "Tomato Basil Soup",
+          "description": "A creamy blend of ripe tomatoes and fresh basil, perfect for comforting warmth.",
+          "price": 50,
+          "rating": 3.9
         },
         {
           "imgSrc": "",
           "id": 9,
-          "name": "Sample Item 2 in Soups",
-          "description": "A delicious example item 2 from Soups category.",
-          "price": 7.99,
+          "name": "Chicken Noodle Soup",
+          "description": "Classic soup with tender chicken, egg noodles, and hearty vegetables in savory broth.",
+          "price": 80,
           "rating": 4.2
         },
         {
           "imgSrc": "",
           "id": 10,
-          "name": "Sample Item 3 in Soups",
-          "description": "A delicious example item 3 from Soups category.",
-          "price": 9.99,
+          "name": "Minestrone",
+          "description": "A robust Italian vegetable soup with beans, pasta, and a rich tomato base.",
+          "price": 70,
           "rating": 4.4
         },
         {
           "imgSrc": "",
           "id": 11,
-          "name": "Sample Item 4 in Soups",
-          "description": "A delicious example item 4 from Soups category.",
-          "price": 11.99,
+          "name": "French Onion Soup",
+          "description": "A savory onion soup topped with melted cheese and crusty bread",
+          "price": 50,
           "rating": 4.0
         },
         {
           "imgSrc": "",
           "id": 12,
-          "name": "Sample Item 5 in Soups",
-          "description": "A delicious example item 5 from Soups category.",
-          "price": 13.99,
+          "name": "Butternut Squash Soup",
+          "description": "Silky-smooth soup with roasted butternut squash and a touch of nutmeg.",
+          "price": 70,
           "rating": 4.2
         },
         {
           "imgSrc": "",
           "id": 13,
-          "name": "Sample Item 6 in Soups",
-          "description": "A delicious example item 6 from Soups category.",
-          "price": 15.99,
-          "rating": 4.4
+          "name": "Hot and Sour Soup",
+          "description": "A tangy and spicy Asian soup with tofu, mushrooms, and bamboo shoots.",
+          "price": 50,
+          "rating": 3.9
         },
         {
           "imgSrc": "",
           "id": 14,
-          "name": "Sample Item 7 in Soups",
-          "description": "A delicious example item 7 from Soups category.",
-          "price": 17.99,
+          "name": "Clam Chowder",
+          "description": "Creamy New England-style soup loaded with clams, potatoes, and smoky bacon.",
+          "price": 80,
           "rating": 4.0
         }
       ]
@@ -134,57 +134,57 @@
         {
           "imgSrc": "",
           "id": 15,
-          "name": "Sample Item 1 in Salads",
-          "description": "A delicious example item 1 from Salads category.",
-          "price": 5.99,
+          "name": "Caesar Salad",
+          "description": "A classic mix of crisp romaine lettuce, Parmesan cheese, croutons, and creamy Caesar dressing.",
+          "price": 70,
           "rating": 4.0
         },
         {
           "imgSrc": "",
           "id": 16,
-          "name": "Sample Item 2 in Salads",
-          "description": "A delicious example item 2 from Salads category.",
-          "price": 7.99,
+          "name": "Greek Salad",
+          "description": "A refreshing combination of cucumbers, tomatoes, red onions, olives, and feta cheese, drizzled with olive oil.",
+          "price": 100,
           "rating": 4.2
         },
         {
           "imgSrc": "",
           "id": 17,
-          "name": "Sample Item 3 in Salads",
-          "description": "A delicious example item 3 from Salads category.",
-          "price": 9.99,
+          "name": "Caprese Salad",
+          "description": "An Italian favorite with ripe tomatoes, fresh mozzarella, basil, and a drizzle of balsamic glaze.",
+          "price": 100,
           "rating": 4.4
         },
         {
           "imgSrc": "",
           "id": 18,
-          "name": "Sample Item 4 in Salads",
-          "description": "A delicious example item 4 from Salads category.",
-          "price": 11.99,
+          "name": "Cobb Salad",
+          "description": "A hearty salad loaded with chicken, avocado, bacon, boiled eggs, tomatoes, and blue cheese.",
+          "price": 70,
           "rating": 4.0
         },
         {
           "imgSrc": "",
           "id": 19,
-          "name": "Sample Item 5 in Salads",
-          "description": "A delicious example item 5 from Salads category.",
-          "price": 13.99,
+          "name": "Waldorf Salad",
+          "description": "A sweet and crunchy mix of apples, grapes, celery, and walnuts in a creamy dressing.",
+          "price": 120,
           "rating": 4.2
         },
         {
           "imgSrc": "",
           "id": 20,
-          "name": "Sample Item 6 in Salads",
-          "description": "A delicious example item 6 from Salads category.",
-          "price": 15.99,
+          "name": "Quinoa Salad",
+          "description": "A protein-packed dish with quinoa, fresh vegetables, herbs, and a light lemon vinaigrette.",
+          "price": 90,
           "rating": 4.4
         },
         {
           "imgSrc": "",
           "id": 21,
-          "name": "Sample Item 7 in Salads",
-          "description": "A delicious example item 7 from Salads category.",
-          "price": 17.99,
+          "name": "Asian Chicken Salad",
+          "description": "A flavorful medley of shredded chicken, crunchy veggies, mandarin oranges, and sesame ginger dressing.",
+          "price": 150,
           "rating": 4.0
         }
       ]
@@ -197,57 +197,57 @@
         {
           "imgSrc": "",
           "id": 22,
-          "name": "Sample Item 1 in Pasta",
-          "description": "A delicious example item 1 from Pasta category.",
-          "price": 5.99,
+          "name": "Spaghetti Carbonara",
+          "description": "A creamy Roman pasta with eggs, Parmesan, pancetta, and black pepper.",
+          "price": 150,
           "rating": 4.0
         },
         {
           "imgSrc": "",
           "id": 23,
-          "name": "Sample Item 2 in Pasta",
-          "description": "A delicious example item 2 from Pasta category.",
-          "price": 7.99,
+          "name": "Penne Arrabbiata",
+          "description": "Penne pasta in a spicy tomato sauce with garlic, chili, and olive oil.",
+          "price": 120,
           "rating": 4.2
         },
         {
           "imgSrc": "",
           "id": 24,
-          "name": "Sample Item 3 in Pasta",
-          "description": "A delicious example item 3 from Pasta category.",
-          "price": 9.99,
+          "name": "Fettuccine Alfredo",
+          "description": "A rich and creamy pasta coated in a buttery Parmesan cheese sauce.",
+          "price": 170,
           "rating": 4.4
         },
         {
           "imgSrc": "",
           "id": 25,
-          "name": "Sample Item 4 in Pasta",
-          "description": "A delicious example item 4 from Pasta category.",
-          "price": 11.99,
+          "name": "Lasagna Bolognese",
+          "description": "Layered pasta sheets with meat sauce, ricotta, and melted mozzarella cheese.",
+          "price": 110,
           "rating": 4.0
         },
         {
           "imgSrc": "",
           "id": 26,
-          "name": "Sample Item 5 in Pasta",
-          "description": "A delicious example item 5 from Pasta category.",
-          "price": 13.99,
+          "name": "Pesto Pasta",
+          "description": "Pasta tossed with a vibrant basil pesto sauce, pine nuts, and Parmesan.",
+          "price": 200,
           "rating": 4.2
         },
         {
           "imgSrc": "",
           "id": 27,
-          "name": "Sample Item 6 in Pasta",
-          "description": "A delicious example item 6 from Pasta category.",
-          "price": 15.99,
+          "name": "Ravioli",
+          "description": "Stuffed pasta pockets filled with cheese, meat, or vegetables, served with marinara or butter sauce.",
+          "price": 150,
           "rating": 4.4
         },
         {
           "imgSrc": "",
           "id": 28,
-          "name": "Sample Item 7 in Pasta",
-          "description": "A delicious example item 7 from Pasta category.",
-          "price": 17.99,
+          "name": "Seafood Linguine",
+          "description": "A delightful mix of linguine, shrimp, mussels, and clams in a garlic white wine sauce.",
+          "price": 250,
           "rating": 4.0
         }
       ]
@@ -260,57 +260,57 @@
         {
           "imgSrc": "",
           "id": 29,
-          "name": "Sample Item 1 in Burgers",
-          "description": "A delicious example item 1 from Burgers category.",
-          "price": 5.99,
+          "name": "Classic Cheeseburger",
+          "description": "A timeless favorite with a juicy beef patty, melted cheese, lettuce, tomato, and pickles.",
+          "price": 90,
           "rating": 4.0
         },
         {
           "imgSrc": "",
           "id": 30,
-          "name": "Sample Item 2 in Burgers",
-          "description": "A delicious example item 2 from Burgers category.",
-          "price": 7.99,
+          "name": "Bacon BBQ Burger",
+          "description": "Smoky bacon, tangy barbecue sauce, and crispy onion rings on a grilled beef patty.",
+          "price": 120,
           "rating": 4.2
         },
         {
           "imgSrc": "",
           "id": 31,
-          "name": "Sample Item 3 in Burgers",
-          "description": "A delicious example item 3 from Burgers category.",
-          "price": 9.99,
+          "name": "Veggie Burger",
+          "description": "A hearty plant-based patty topped with fresh veggies and a zesty sauce.",
+          "price": 70,
           "rating": 4.4
         },
         {
           "imgSrc": "",
           "id": 32,
-          "name": "Sample Item 4 in Burgers",
-          "description": "A delicious example item 4 from Burgers category.",
-          "price": 11.99,
+          "name": "Mushroom Swiss Burger",
+          "description": "A savory delight with sautéed mushrooms, melted Swiss cheese, and creamy garlic aioli.",
+          "price": 130,
           "rating": 4.0
         },
         {
           "imgSrc": "",
           "id": 33,
-          "name": "Sample Item 5 in Burgers",
-          "description": "A delicious example item 5 from Burgers category.",
-          "price": 13.99,
+          "name": "Spicy Jalapeño Burger",
+          "description": "Packed with heat, featuring jalapeños, pepper jack cheese, and spicy mayo.",
+          "price": 150,
           "rating": 4.2
         },
         {
           "imgSrc": "",
           "id": 34,
-          "name": "Sample Item 6 in Burgers",
-          "description": "A delicious example item 6 from Burgers category.",
-          "price": 15.99,
+          "name": "Chicken Avocado Burger",
+          "description": "Grilled chicken breast, creamy avocado, lettuce, and a hint of lime.",
+          "price": 150,
           "rating": 4.4
         },
         {
           "imgSrc": "",
           "id": 35,
-          "name": "Sample Item 7 in Burgers",
-          "description": "A delicious example item 7 from Burgers category.",
-          "price": 17.99,
+          "name": "Double-Decker Burger",
+          "description": "Two bacon patties, double the cheese, and all the classic toppings for a hearty bite.",
+          "price": 200,
           "rating": 4.0
         }
       ]
@@ -323,57 +323,57 @@
         {
           "imgSrc": "",
           "id": 36,
-          "name": "Sample Item 1 in Pizza",
-          "description": "A delicious example item 1 from Pizza category.",
-          "price": 5.99,
+          "name": "Margherita Pizza",
+          "description": "A classic Italian pizza with fresh mozzarella, tomatoes, and basil on a thin crust.",
+          "price": 120,
           "rating": 4.0
         },
         {
           "imgSrc": "",
           "id": 37,
-          "name": "Sample Item 2 in Pizza",
-          "description": "A delicious example item 2 from Pizza category.",
-          "price": 7.99,
+          "name": "Pepperoni Pizza",
+          "description": "A crowd favorite, topped with spicy pepperoni slices and gooey mozzarella cheese.",
+          "price": 150,
           "rating": 4.2
         },
         {
           "imgSrc": "",
           "id": 38,
-          "name": "Sample Item 3 in Pizza",
-          "description": "A delicious example item 3 from Pizza category.",
-          "price": 9.99,
+          "name": "BBQ Chicken Pizza",
+          "description": "Smoky barbecue sauce, grilled chicken, red onions, and cilantro for a bold flavor.",
+          "price": 250,
           "rating": 4.4
         },
         {
           "imgSrc": "",
           "id": 39,
-          "name": "Sample Item 4 in Pizza",
-          "description": "A delicious example item 4 from Pizza category.",
-          "price": 11.99,
+          "name": "Veggie Supreme Pizza",
+          "description": "Loaded with bell peppers, mushrooms, onions, olives, and fresh tomatoes.",
+          "price": 170,
           "rating": 4.0
         },
         {
           "imgSrc": "",
           "id": 40,
-          "name": "Sample Item 5 in Pizza",
-          "description": "A delicious example item 5 from Pizza category.",
-          "price": 13.99,
+          "name": "Meat Lover's Pizza",
+          "description": "A hearty mix of pepperoni, sausage, bacon and ham.",
+          "price": 500,
           "rating": 4.2
         },
         {
           "imgSrc": "",
           "id": 41,
-          "name": "Sample Item 6 in Pizza",
-          "description": "A delicious example item 6 from Pizza category.",
-          "price": 15.99,
+          "name": "Hawaiian Pizza",
+          "description": "A sweet and savory combo of ham, pineapple, and melted cheese.",
+          "price": 290,
           "rating": 4.4
         },
         {
           "imgSrc": "",
           "id": 42,
-          "name": "Sample Item 7 in Pizza",
-          "description": "A delicious example item 7 from Pizza category.",
-          "price": 17.99,
+          "name": "Four Cheese Pizza",
+          "description": "A rich blend of mozzarella, Parmesan, gorgonzola, and ricotta on a golden crust.",
+          "price": 450,
           "rating": 4.0
         }
       ]
@@ -386,57 +386,57 @@
         {
           "imgSrc": "",
           "id": 43,
-          "name": "Sample Item 1 in Seafood",
-          "description": "A delicious example item 1 from Seafood category.",
-          "price": 5.99,
+          "name": "Grilled Salmon",
+          "description": "Perfectly grilled salmon fillet with a hint of lemon and herbs.",
+          "price": 450,
           "rating": 4.0
         },
         {
           "imgSrc": "",
           "id": 44,
-          "name": "Sample Item 2 in Seafood",
-          "description": "A delicious example item 2 from Seafood category.",
-          "price": 7.99,
+          "name": "Shrimp Scampi",
+          "description": "Juicy shrimp sautéed in garlic butter and white wine sauce, served over pasta.",
+          "price": 350,
           "rating": 4.2
         },
         {
           "imgSrc": "",
           "id": 45,
-          "name": "Sample Item 3 in Seafood",
-          "description": "A delicious example item 3 from Seafood category.",
-          "price": 9.99,
+          "name": "Fish Tacos",
+          "description": "Crispy or grilled fish topped with slaw, lime crema, and fresh salsa in soft tortillas.",
+          "price": 200,
           "rating": 4.4
         },
         {
           "imgSrc": "",
           "id": 46,
-          "name": "Sample Item 4 in Seafood",
-          "description": "A delicious example item 4 from Seafood category.",
-          "price": 11.99,
+          "name": "Lobster Bisque",
+          "description": "A creamy and luxurious soup made with fresh lobster and a touch of sherry.",
+          "price": 350,
           "rating": 4.0
         },
         {
           "imgSrc": "",
           "id": 47,
-          "name": "Sample Item 5 in Seafood",
-          "description": "A delicious example item 5 from Seafood category.",
-          "price": 13.99,
+          "name": "Crab Cakes",
+          "description": "Golden-fried patties packed with succulent crab meat and spices.",
+          "price": 300,
           "rating": 4.2
         },
         {
           "imgSrc": "",
           "id": 48,
-          "name": "Sample Item 6 in Seafood",
-          "description": "A delicious example item 6 from Seafood category.",
-          "price": 15.99,
+          "name": "Seafood Paella",
+          "description": "A Spanish classic with saffron-infused rice, shrimp, mussels, and squid.",
+          "price": 400,
           "rating": 4.4
         },
         {
           "imgSrc": "",
           "id": 49,
-          "name": "Sample Item 7 in Seafood",
-          "description": "A delicious example item 7 from Seafood category.",
-          "price": 17.99,
+          "name": "Oysters Rockefeller",
+          "description": "Baked oysters topped with a savory mixture of spinach, herbs, and breadcrumbs.",
+          "price": 700,
           "rating": 4.0
         }
       ]
@@ -449,57 +449,57 @@
         {
           "imgSrc": "",
           "id": 50,
-          "name": "Sample Item 1 in Sandwiches",
-          "description": "A delicious example item 1 from Sandwiches category.",
-          "price": 5.99,
+          "name": "Club Sandwich",
+          "description": "A triple-layered sandwich with turkey, bacon, lettuce, tomato, and mayo.",
+          "price": 180,
           "rating": 4.0
         },
         {
           "imgSrc": "",
           "id": 51,
-          "name": "Sample Item 2 in Sandwiches",
-          "description": "A delicious example item 2 from Sandwiches category.",
-          "price": 7.99,
+          "name": "Grilled Cheese Sandwich ",
+          "description": "Golden-toasted bread with gooey, melted cheese inside.",
+          "price": 120,
           "rating": 4.2
         },
         {
           "imgSrc": "",
           "id": 52,
-          "name": "Sample Item 3 in Sandwiches",
-          "description": "A delicious example item 3 from Sandwiches category.",
-          "price": 9.99,
+          "name": "Chicken Caesar Wrap ",
+          "description": "Grilled chicken, romaine lettuce, and Caesar dressing in a soft tortilla.",
+          "price": 160,
           "rating": 4.4
         },
         {
           "imgSrc": "",
           "id": 53,
-          "name": "Sample Item 4 in Sandwiches",
-          "description": "A delicious example item 4 from Sandwiches category.",
-          "price": 11.99,
+          "name": "Veggie Panini",
+          "description": "Veggie Panini",
+          "price": 130,
           "rating": 4.0
         },
         {
           "imgSrc": "",
           "id": 54,
-          "name": "Sample Item 5 in Sandwiches",
-          "description": "A delicious example item 5 from Sandwiches category.",
-          "price": 13.99,
+          "name": "Tuna Melt",
+          "description": "A  hearty tuna salad topped with melted cheese on toasted bread.",
+          "price": 150,
           "rating": 4.2
         },
         {
           "imgSrc": "",
           "id": 55,
-          "name": "Sample Item 6 in Sandwiches",
-          "description": "A delicious example item 6 from Sandwiches category.",
-          "price": 15.99,
+          "name": "BLT Sandwich ",
+          "description": "Crispy bacon, lettuce, and tomato with mayo on toasted bread.",
+          "price": 140,
           "rating": 4.4
         },
         {
           "imgSrc": "",
           "id": 56,
-          "name": "Sample Item 7 in Sandwiches",
-          "description": "A delicious example item 7 from Sandwiches category.",
-          "price": 17.99,
+          "name": "Egg Salad Sandwich ",
+          "description": "Creamy egg salad stuffed between soft slices of bread.",
+          "price": 110,
           "rating": 4.0
         }
       ]
@@ -512,57 +512,57 @@
         {
           "imgSrc": "",
           "id": 57,
-          "name": "Sample Item 1 in Desserts",
-          "description": "A delicious example item 1 from Desserts category.",
-          "price": 5.99,
+          "name": "Chocolate Lava Cake",
+          "description": "A decadent cake with a gooey chocolate center.",
+          "price": 180,
           "rating": 4.0
         },
         {
           "imgSrc": "",
           "id": 58,
-          "name": "Sample Item 2 in Desserts",
-          "description": "A delicious example item 2 from Desserts category.",
-          "price": 7.99,
+          "name": "Tiramisu",
+          "description": "A creamy Italian dessert with coffee-soaked ladyfingers and mascarpone.",
+          "price": 200,
           "rating": 4.2
         },
         {
           "imgSrc": "",
           "id": 59,
-          "name": "Sample Item 3 in Desserts",
-          "description": "A delicious example item 3 from Desserts category.",
-          "price": 9.99,
+          "name": "Cheesecake",
+          "description": "A rich and creamy dessert with a buttery graham cracker crust.",
+          "price": 200,
           "rating": 4.4
         },
         {
           "imgSrc": "",
           "id": 60,
-          "name": "Sample Item 4 in Desserts",
-          "description": "A delicious example item 4 from Desserts category.",
+          "name": "Panna Cotta ",
+          "description": "A silky Italian custard dessert topped with fruit or caramel.",
           "price": 11.99,
           "rating": 4.0
         },
         {
           "imgSrc": "",
           "id": 61,
-          "name": "Sample Item 5 in Desserts",
-          "description": "A delicious example item 5 from Desserts category.",
-          "price": 13.99,
+          "name": "Macarons ",
+          "description": "Light almond meringue cookies with creamy fillings.",
+          "price": 50,
           "rating": 4.2
         },
         {
           "imgSrc": "",
           "id": 62,
-          "name": "Sample Item 6 in Desserts",
-          "description": "A delicious example item 6 from Desserts category.",
-          "price": 15.99,
+          "name": "Gulab Jamun",
+          "description": "Deep-fried milk-based dumplings soaked in sugary syrup.",
+          "price": 20,
           "rating": 4.4
         },
         {
           "imgSrc": "",
           "id": 63,
-          "name": "Sample Item 7 in Desserts",
-          "description": "A delicious example item 7 from Desserts category.",
-          "price": 17.99,
+          "name": "Ice Cream Sundae",
+          "description": "Ice cream topped with sauces, nuts, and a cherry on top.",
+          "price": 160,
           "rating": 4.0
         }
       ]
@@ -575,57 +575,57 @@
         {
           "imgSrc": "",
           "id": 64,
-          "name": "Sample Item 1 in Drinks",
-          "description": "A delicious example item 1 from Drinks category.",
-          "price": 5.99,
+          "name": "Mojito",
+          "description": "A  refreshing mix of lime, mint, sugar, and soda.",
+          "price": 130,
           "rating": 4.0
         },
         {
           "imgSrc": "",
           "id": 65,
-          "name": "Sample Item 2 in Drinks",
-          "description": "A delicious example item 2 from Drinks category.",
-          "price": 7.99,
+          "name": "Pina Colada",
+          "description": "A tropical drink with pineapple, coconut, and a hint of rum.",
+          "price": 150,
           "rating": 4.2
         },
         {
           "imgSrc": "",
           "id": 66,
-          "name": "Sample Item 3 in Drinks",
-          "description": "A delicious example item 3 from Drinks category.",
-          "price": 9.99,
+          "name": "Iced Coffee",
+          "description": "A chilled coffee drink with milk and sugar.",
+          "price": 120,
           "rating": 4.4
         },
         {
           "imgSrc": "",
           "id": 67,
-          "name": "Sample Item 4 in Drinks",
-          "description": "A delicious example item 4 from Drinks category.",
-          "price": 11.99,
+          "name": "Green Tea Lemonade",
+          "description": "A healthy blend of green tea and fresh lemon juice.",
+          "price": 100,
           "rating": 4.0
         },
         {
           "imgSrc": "",
           "id": 68,
-          "name": "Sample Item 5 in Drinks",
-          "description": "A delicious example item 5 from Drinks category.",
-          "price": 13.99,
+          "name": "Fruit Smoothie ",
+          "description": "A creamy blend of mixed fruits, yogurt, and honey.",
+          "price": 150,
           "rating": 4.2
         },
         {
           "imgSrc": "",
           "id": 69,
-          "name": "Sample Item 6 in Drinks",
-          "description": "A delicious example item 6 from Drinks category.",
-          "price": 15.99,
+          "name": "Mango Lassi",
+          "description": "A sweet Indian yogurt-based mango drink.",
+          "price": 120,
           "rating": 4.4
         },
         {
           "imgSrc": "",
           "id": 70,
-          "name": "Sample Item 7 in Drinks",
-          "description": "A delicious example item 7 from Drinks category.",
-          "price": 17.99,
+          "name": "Hot Chocolate",
+          "description": "A cozy drink made with milk, cocoa, and whipped cream.",
+          "price": 140,
           "rating": 4.0
         }
       ]
@@ -638,57 +638,57 @@
         {
           "imgSrc": "",
           "id": 71,
-          "name": "Sample Item 1 in Breakfast",
-          "description": "A delicious example item 1 from Breakfast category.",
-          "price": 5.99,
+          "name": "Pancakes",
+          "description": "Fluffy pancakes served with syrup and fresh fruits.",
+          "price": 150,
           "rating": 4.0
         },
         {
           "imgSrc": "",
           "id": 72,
-          "name": "Sample Item 2 in Breakfast",
-          "description": "A delicious example item 2 from Breakfast category.",
-          "price": 7.99,
+          "name": "French Toast",
+          "description": "Bread dipped in egg batter, fried, and topped with syrup or sugar.",
+          "price": 130,
           "rating": 4.2
         },
         {
           "imgSrc": "",
           "id": 73,
-          "name": "Sample Item 3 in Breakfast",
-          "description": "A delicious example item 3 from Breakfast category.",
-          "price": 9.99,
+          "name": "Omelette",
+          "description": "A folded egg dish filled with cheese, veggies, or meat.",
+          "price": 100,
           "rating": 4.4
         },
         {
           "imgSrc": "",
           "id": 74,
-          "name": "Sample Item 4 in Breakfast",
-          "description": "A delicious example item 4 from Breakfast category.",
-          "price": 11.99,
+          "name": "Bagel with Cream Cheese",
+          "description": "A toasted bagel smeared with creamy cheese.",
+          "price": 110,
           "rating": 4.0
         },
         {
           "imgSrc": "",
           "id": 75,
-          "name": "Sample Item 5 in Breakfast",
-          "description": "A delicious example item 5 from Breakfast category.",
-          "price": 13.99,
+          "name": "Avocado Toast ",
+          "description": "Toast topped with mashed avocado, olive oil, and spices.",
+          "price": 140,
           "rating": 4.2
         },
         {
           "imgSrc": "",
           "id": 76,
-          "name": "Sample Item 6 in Breakfast",
-          "description": "A delicious example item 6 from Breakfast category.",
-          "price": 15.99,
+          "name": "Smoothie Bowl",
+          "description": "A thick smoothie topped with fruits, nuts, and granola.",
+          "price": 180,
           "rating": 4.4
         },
         {
           "imgSrc": "",
           "id": 77,
-          "name": "Sample Item 7 in Breakfast",
-          "description": "A delicious example item 7 from Breakfast category.",
-          "price": 17.99,
+          "name": "Breakfast Burrito",
+          "description": "A tortilla filled with scrambled eggs, bacon, cheese, and salsa.",
+          "price": 160,
           "rating": 4.0
         }
       ]
@@ -696,62 +696,62 @@
     {
       "imgSrcMain": "",
       "id": 12,
-      "name": "Grilled",
+      "name": "Indian",
       "items": [
         {
           "imgSrc": "",
           "id": 78,
-          "name": "Sample Item 1 in Grilled",
-          "description": "A delicious example item 1 from Grilled category.",
-          "price": 5.99,
+          "name": "Butter Chicken ",
+          "description": "A creamy tomato-based curry with tender chicken.",
+          "price": 250,
           "rating": 4.0
         },
         {
           "imgSrc": "",
           "id": 79,
-          "name": "Sample Item 2 in Grilled",
-          "description": "A delicious example item 2 from Grilled category.",
-          "price": 7.99,
+          "name": "Biryani ",
+          "description": "Spiced rice with layers of marinated meat or vegetables.",
+          "price": 220,
           "rating": 4.2
         },
         {
           "imgSrc": "",
           "id": 80,
-          "name": "Sample Item 3 in Grilled",
-          "description": "A delicious example item 3 from Grilled category.",
-          "price": 9.99,
+          "name": "Paneer Tikka",
+          "description": "Grilled Indian cottage cheese with spices.",
+          "price": 180,
           "rating": 4.4
         },
         {
           "imgSrc": "",
           "id": 81,
-          "name": "Sample Item 4 in Grilled",
-          "description": "A delicious example item 4 from Grilled category.",
-          "price": 11.99,
+          "name": "Masala Dosa ",
+          "description": "A crispy rice crepe stuffed with spiced potato filling.",
+          "price": 130,
           "rating": 4.0
         },
         {
           "imgSrc": "",
           "id": 82,
-          "name": "Sample Item 5 in Grilled",
-          "description": "A delicious example item 5 from Grilled category.",
-          "price": 13.99,
+          "name": "Palak Paneer",
+          "description": "Cottage cheese in a creamy spinach gravy.",
+          "price": 200,
           "rating": 4.2
         },
         {
           "imgSrc": "",
           "id": 83,
-          "name": "Sample Item 6 in Grilled",
-          "description": "A delicious example item 6 from Grilled category.",
-          "price": 15.99,
+          "name": "Rogan Josh",
+          "description": "A flavorful lamb curry with aromatic spices.",
+          "price": 280,
           "rating": 4.4
         },
         {
           "imgSrc": "",
           "id": 84,
-          "name": "Sample Item 7 in Grilled",
-          "description": "A delicious example item 7 from Grilled category.",
-          "price": 17.99,
+          "name": "Chole Bhature",
+          "description": "Spicy chickpeas served with deep-fried bread.",
+          "price": 150,
           "rating": 4.0
         }
       ]
@@ -759,62 +759,61 @@
     {
       "imgSrcMain": "",
       "id": 13,
-      "name": "Vegan",
+      "name": "Momos",
       "items": [
         {
           "imgSrc": "",
           "id": 85,
-          "name": "Sample Item 1 in Vegan",
-          "description": "A delicious example item 1 from Vegan category.",
-          "price": 5.99,
+          "name": "Steamed Veg Momos",
+          "description": "Soft dumplings filled with vegetables and served with spicy chutney",
+          "price": 120,
           "rating": 4.0
         },
         {
           "imgSrc": "",
           "id": 86,
-          "name": "Sample Item 2 in Vegan",
-          "description": "A delicious example item 2 from Vegan category.",
-          "price": 7.99,
+          "name": "Chicken Momos",
+          "description": "Juicy chicken-filled dumplings steamed to perfection.",
+          "price": 150,
           "rating": 4.2
         },
         {
           "imgSrc": "",
           "id": 87,
-          "name": "Sample Item 3 in Vegan",
-          "description": "A delicious example item 3 from Vegan category.",
-          "price": 9.99,
+          "name": "Fried Momos",
+          "description": "Crispy deep-fried dumplings with spicy filling.",
+          "price": 160,
           "rating": 4.4
         },
         {
           "imgSrc": "",
           "id": 88,
-          "name": "Sample Item 4 in Vegan",
-          "description": "A delicious example item 4 from Vegan category.",
-          "price": 11.99,
+          "name": "Tandoori Momos",
+          "description": "Smoky momos marinated in spices and grilled in a tandoor.",
+          "price": 180,
           "rating": 4.0
         },
         {
           "imgSrc": "",
           "id": 89,
-          "name": "Sample Item 5 in Vegan",
-          "description": "A delicious example item 5 from Vegan category.",
-          "price": 13.99,
+          "name": "Cheese Momos",
+          "description": "Melted cheese stuffed in soft dumpling wrappers.",
+          "price": 140,
           "rating": 4.2
         },
         {
           "imgSrc": "",
           "id": 90,
-          "name": "Sample Item 6 in Vegan",
-          "description": "A delicious example item 6 from Vegan category.",
-          "price": 15.99,
+          "name": "Paneer Indian cottage cheese-filled dumplings.",
+          "price": 150,
           "rating": 4.4
         },
         {
           "imgSrc": "",
           "id": 91,
-          "name": "Sample Item 7 in Vegan",
-          "description": "A delicious example item 7 from Vegan category.",
-          "price": 17.99,
+          "name": "Soup Momos",
+          "description": "Momos served in a hot, flavorful broth.",
+          "price": 120,
           "rating": 4.0
         }
       ]
@@ -822,62 +821,62 @@
     {
       "imgSrcMain": "",
       "id": 14,
-      "name": "Kids Menu",
+      "name": "Noodles",
       "items": [
         {
           "imgSrc": "",
           "id": 92,
-          "name": "Sample Item 1 in Kids Menu",
-          "description": "A delicious example item 1 from Kids Menu category.",
-          "price": 5.99,
+          "name": "Hakka Noodles",
+          "description": "Stir-fried noodles with vegetables and soy sauce.",
+          "price": 150,
           "rating": 4.0
         },
         {
           "imgSrc": "",
           "id": 93,
-          "name": "Sample Item 2 in Kids Menu",
-          "description": "A delicious example item 2 from Kids Menu category.",
-          "price": 7.99,
+          "name": "Chow Mein",
+          "description": "Crispy noodles tossed with meat and vegetables.",
+          "price": 160,
           "rating": 4.2
         },
         {
           "imgSrc": "",
           "id": 94,
-          "name": "Sample Item 3 in Kids Menu",
-          "description": "A delicious example item 3 from Kids Menu category.",
-          "price": 9.99,
+          "name": "Pad Thai ",
+          "description": "Thai-style stir-fried rice noodles with tamarind sauce.",
+          "price": 200,
           "rating": 4.4
         },
         {
           "imgSrc": "",
           "id": 95,
-          "name": "Sample Item 4 in Kids Menu",
-          "description": "A delicious example item 4 from Kids Menu category.",
-          "price": 11.99,
+          "name": "Ramen",
+          "description": "Japanese noodle soup with meat, eggs, and veggies.",
+          "price": 220,
           "rating": 4.0
         },
         {
           "imgSrc": "",
           "id": 96,
-          "name": "Sample Item 5 in Kids Menu",
-          "description": "A delicious example item 5 from Kids Menu category.",
-          "price": 13.99,
+          "name": "Singapore Noodles",
+          "description": "Spicy curried noodles with shrimp and vegetables.",
+          "price": 170,
           "rating": 4.2
         },
         {
           "imgSrc": "",
           "id": 97,
-          "name": "Sample Item 6 in Kids Menu",
-          "description": "A delicious example item 6 from Kids Menu category.",
-          "price": 15.99,
+          "name": "Udon Noodles",
+          "description": "Thick Japanese noodles in a light broth or stir-fried.",
+          "price": 210,
           "rating": 4.4
         },
         {
           "imgSrc": "",
           "id": 98,
-          "name": "Sample Item 7 in Kids Menu",
-          "description": "A delicious example item 7 from Kids Menu category.",
-          "price": 17.99,
+          "name": "Glass Noodles ",
+          "description": "Transparent noodles made from mung beans, stir-fried with veggies.",
+          "price": 180,
           "rating": 4.0
         }
       ]
@@ -885,62 +884,62 @@
     {
       "imgSrcMain": "",
       "id": 15,
-      "name": "Sides",
+      "name": "Chicken",
       "items": [
         {
           "imgSrc": "",
           "id": 99,
-          "name": "Sample Item 1 in Sides",
-          "description": "A delicious example item 1 from Sides category.",
-          "price": 5.99,
+          "name": "Grilled Chicken",
+          "description": "Marinated chicken grilled to perfection with smoky flavors.",
+          "price": 250,
           "rating": 4.0
         },
         {
           "imgSrc": "",
           "id": 100,
-          "name": "Sample Item 2 in Sides",
-          "description": "A delicious example item 2 from Sides category.",
-          "price": 7.99,
+          "name": "Chicken Wings",
+          "description": "Crispy, spicy, and flavorful chicken wings.",
+          "price": 220,
           "rating": 4.2
         },
         {
           "imgSrc": "",
           "id": 101,
-          "name": "Sample Item 3 in Sides",
-          "description": "A delicious example item 3 from Sides category.",
-          "price": 9.99,
+          "name": "Chicken Curry",
+          "description": "A rich and spiced curry with tender chicken pieces.",
+          "price": 240,
           "rating": 4.4
         },
         {
           "imgSrc": "",
           "id": 102,
-          "name": "Sample Item 4 in Sides",
-          "description": "A delicious example item 4 from Sides category.",
-          "price": 11.99,
+          "name": "Chicken Biryani ",
+          "description": "Aromatic rice layered with spiced chicken.",
+          "price": 260,
           "rating": 4.0
         },
         {
           "imgSrc": "",
           "id": 103,
-          "name": "Sample Item 5 in Sides",
-          "description": "A delicious example item 5 from Sides category.",
-          "price": 13.99,
+          "name": "Chicken Alfredo",
+          "description": "Creamy pasta with grilled chicken and Parmesan.",
+          "price": 220,
           "rating": 4.2
         },
         {
           "imgSrc": "",
           "id": 104,
-          "name": "Sample Item 6 in Sides",
-          "description": "A delicious example item 6 from Sides category.",
-          "price": 15.99,
+          "name": "Fried Chicken",
+          "description": "Crispy, golden-brown chicken with a crunchy coating.",
+          "price": 240,
           "rating": 4.4
         },
         {
           "imgSrc": "",
           "id": 105,
-          "name": "Sample Item 7 in Sides",
-          "description": "A delicious example item 7 from Sides category.",
-          "price": 17.99,
+          "name": "Chicken Tikka",
+          "description": "Juicy, spiced chicken skewers cooked in a tandoor.",
+          "price": 280,
           "rating": 4.0
         }
       ]
