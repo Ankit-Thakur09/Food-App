@@ -63,10 +63,9 @@ function Cart() {
           <div className="h-[39vh] md:h-[55vh] overflow-y-auto ">
             {cart.length === 0 ? (
               <div className="h-full flex flex-col  font-semibold text-lg text-gray-500 relative">
-                {/* <div className="bg-blue-300 h-full w-full overflow-hidden flex opacity-50">
+                <div className=" h-full w-full overflow-hidden flex opacity-40">
                   <div className="w-1/3  ">
                     <div className="flex p-5 justify-center w-full">
-                      {" "}
                       <img
                         src="./f1.webp"
                         className="w-10 md:w-20 rotate-[20deg]"
@@ -87,7 +86,6 @@ function Cart() {
                       />
                     </div>
                     <div className="flex justify-center p-5 ml-8 w-full">
-                      {" "}
                       <img
                         src="./f3.webp"
                         className="w-10 md:w-20 rotate-45"
@@ -95,47 +93,69 @@ function Cart() {
                       />
                     </div>
                   </div>
-                  <div className="w-1/3  ">
-                   
-                    <img
-                      src="./f5.webp"
-                      alt=""
-                      className="w-10 md:w-20 rotate-45"
-                    />
-                    <img
-                      src="./f6.webp"
-                      alt=""
-                      className="w-10 md:w-20 rotate-45"
-                    />
-                    <img
-                      src="./f7.webp"
-                      alt=""
-                      className="w-10 md:w-20 rotate-45"
-                    />
+                  <div className="w-1/3 flex flex-col justify-evenly  ">
+                    <div className="flex p-3 justify-between w-full">
+                      <img
+                        src="./f5.webp"
+                        className="w-[10vw] md:w-20 -rotate-[30deg]"
+                        alt=""
+                      />
+                      <img
+                        src="./f6.webp"
+                        alt=""
+                        className="w-10 md:w-20 rotate-[35deg]"
+                      />
+                    </div>
+
+                    <div className="flex p-3 justify-between w-full">
+                      <img
+                        src="./f7.webp"
+                        className="w-[10vw] md:w-20 -rotate-[30deg]"
+                        alt=""
+                      />
+                      <img
+                        src="./f10.webp"
+                        alt=""
+                        className="w-10 md:w-20 rotate-[35deg]"
+                      />
+                    </div>
                   </div>
                   <div className="w-1/3  ">
-                    <img
-                      src="./f9.webp"
-                      alt=""
-                      className="w-10 md:w-20 rotate-45"
-                    />
-                    <img
-                      src="./f8.webp"
-                      alt=""
-                      className="w-10 md:w-20 rotate-45"
-                    />
-                    <img
-                      src="./f10.webp"
-                      alt=""
-                      className="w-10 md:w-20 rotate-45"
-                    />
+                    <div className="flex p-5 justify-center w-full">
+                      <img
+                        src="./f9.webp"
+                        className="w-10 md:w-20 rotate-[20deg]"
+                        alt=""
+                      />
+                    </div>
+
+                    <div className="flex p-3 justify-between w-full">
+                      <img
+                        src="./f5.webp"
+                        className="w-[10vw] md:w-20 -rotate-[30deg]"
+                        alt=""
+                      />
+                      <img
+                        src="./f8.webp"
+                        alt=""
+                        className="w-10 md:w-20 rotate-[35deg]"
+                      />
+                    </div>
+                    <div className="flex justify-center p-5 ml-8 w-full">
+                      <img
+                        src="./f2.webp"
+                        className="w-10 md:w-20 rotate-45"
+                        alt=""
+                      />
+                    </div>
                   </div>
-                </div> */}
-                <div className="flex flex-col justify-center items-center absolute inset-0">
+                 
+                </div>
+                <div className="flex flex-col justify-center items-center absolute inset-0 text-gray-800 ">
                   <span>Your cart is empty.</span>
                   <span>
                     Click here to
-                    <NavLink to="/menu" className="underline text-orange-400">
+                    <NavLink to="/menu" className="underline text-orange-400 p-2 ">
                       View Menu
                     </NavLink>
                   </span>
@@ -211,7 +231,7 @@ function Cart() {
         </div>
 
         {/* Summary Section */}
-        <div className="w-full md:w-1/3 bg-white p-6 rounded-lg shadow-lg flex flex-col items-center">
+        <div className="w-full md:w-1/3 bg-white p-6 rounded-lg shadow-lg flex flex-col justify-center items-center">
           <div className="text-gray-800 text-lg font-semibold mb-4">
             Cart Summary
           </div>
