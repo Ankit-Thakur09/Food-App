@@ -6,6 +6,7 @@
       "name": "Appetizers",
       "items": [
         {
+          "isVeg": true,
           "imgSrc": "./appi1.webp",
           "id": 1,
           "name": "Bruschetta",
@@ -14,6 +15,7 @@
           "rating": 4.3
         },
         {
+          "isVeg": true,
           "imgSrc": "./appi2.webp",
           "id": 2,
           "name": "Stuffed Mushrooms",
@@ -22,6 +24,7 @@
           "rating": 4.0
         },
         {
+          "isVeg": true,
           "imgSrc": "./appi3.webp",
           "id": 3,
           "name": "Shrimp Cocktail",
@@ -30,6 +33,7 @@
           "rating": 4.0
         },
         {
+          "isVeg": true,
           "imgSrc": "./appi4.webp",
           "id": 4,
           "name": "Mini Spring Rolls",
@@ -38,6 +42,7 @@
           "rating": 4.0
         },
         {
+          "isVeg": false,
           "imgSrc": "./appi5.webp",
           "id": 5,
           "name": "Deviled Eggs",
@@ -46,6 +51,7 @@
           "rating": 4.1
         },
         {
+          "isVeg": true,
           "imgSrc": "./appi6.webp",
           "id": 6,
           "name": "Caprese Skewers",
@@ -54,6 +60,7 @@
           "rating": 4.2
         },
         {
+          "isVeg": true,
           "imgSrc": "./appi7.webp",
           "id": 7,
           "name": "Spinach and Artichoke Dip ",
@@ -69,7 +76,8 @@
       "name": "Soups",
       "items": [
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./soup1.webp",
           "id": 8,
           "name": "Tomato Basil Soup",
           "description": "A creamy blend of ripe tomatoes and fresh basil, perfect for comforting warmth.",
@@ -77,15 +85,17 @@
           "rating": 3.9
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./soup2.webp",
           "id": 9,
           "name": "Chicken Noodle Soup",
-          "description": "Classic soup with tender chicken, egg noodles, and hearty vegetables in savory broth.",
+          "description": "Classic soup with tender chicken, egg noodles, and vegetables in savory broth.",
           "price": 80,
           "rating": 4.2
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./soup3.webp",
           "id": 10,
           "name": "Minestrone",
           "description": "A robust Italian vegetable soup with beans, pasta, and a rich tomato base.",
@@ -93,7 +103,8 @@
           "rating": 4.4
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./soup4.webp",
           "id": 11,
           "name": "French Onion Soup",
           "description": "A savory onion soup topped with melted cheese and crusty bread",
@@ -101,7 +112,8 @@
           "rating": 4.0
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./soup5.webp",
           "id": 12,
           "name": "Butternut Squash Soup",
           "description": "Silky-smooth soup with roasted butternut squash and a touch of nutmeg.",
@@ -109,7 +121,8 @@
           "rating": 4.2
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./soup6.webp",
           "id": 13,
           "name": "Hot and Sour Soup",
           "description": "A tangy and spicy Asian soup with tofu, mushrooms, and bamboo shoots.",
@@ -117,7 +130,8 @@
           "rating": 3.9
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./soup7.webp",
           "id": 14,
           "name": "Clam Chowder",
           "description": "Creamy New England-style soup loaded with clams, potatoes, and smoky bacon.",
@@ -132,39 +146,44 @@
       "name": "Salads",
       "items": [
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./salad1.webp",
           "id": 15,
           "name": "Caesar Salad",
-          "description": "A classic mix of crisp romaine lettuce, Parmesan cheese, croutons, and creamy Caesar dressing.",
+          "description": "A classic mix of crisp lettuce, Parmesan cheese, croutons, and Caesar dressing.",
           "price": 70,
           "rating": 4.0
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./salad2.webp",
           "id": 16,
           "name": "Greek Salad",
-          "description": "A refreshing combination of cucumbers, tomatoes, red onions, olives, and feta cheese, drizzled with olive oil.",
+          "description": "A refreshing combination of cucumbers, tomatoes, onions, olives, and feta cheese.",
           "price": 100,
           "rating": 4.2
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./salad3.webp",
           "id": 17,
           "name": "Caprese Salad",
-          "description": "An Italian favorite with ripe tomatoes, fresh mozzarella, basil, and a drizzle of balsamic glaze.",
+          "description": "An Italian favorite with ripe tomatoes, fresh mozzarella, basil, and a drizzle of glaze.",
           "price": 100,
           "rating": 4.4
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./salad4.webp",
           "id": 18,
           "name": "Cobb Salad",
-          "description": "A hearty salad loaded with chicken, avocado, bacon, boiled eggs, tomatoes, and blue cheese.",
+          "description": "A salad loaded with chicken, avocado, bacon, boiled eggs, tomatoes, and cheese.",
           "price": 70,
           "rating": 4.0
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./salad5.webp",
           "id": 19,
           "name": "Waldorf Salad",
           "description": "A sweet and crunchy mix of apples, grapes, celery, and walnuts in a creamy dressing.",
@@ -172,18 +191,20 @@
           "rating": 4.2
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./salad6.webp",
           "id": 20,
           "name": "Quinoa Salad",
-          "description": "A protein-packed dish with quinoa, fresh vegetables, herbs, and a light lemon vinaigrette.",
+          "description": "A protein-packed dish with quinoa,  vegetables, herbs, and a light vinaigrette.",
           "price": 90,
           "rating": 4.4
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./salad7.webp",
           "id": 21,
           "name": "Asian Chicken Salad",
-          "description": "A flavorful medley of shredded chicken, crunchy veggies, mandarin oranges, and sesame ginger dressing.",
+          "description": "A flavorful medley of chicken, veggies, oranges, and sesame ginger dressing.",
           "price": 150,
           "rating": 4.0
         }
@@ -195,7 +216,8 @@
       "name": "Pasta",
       "items": [
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./pasta1.webp",
           "id": 22,
           "name": "Spaghetti Carbonara",
           "description": "A creamy Roman pasta with eggs, Parmesan, pancetta, and black pepper.",
@@ -203,7 +225,8 @@
           "rating": 4.0
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./pasta2.webp",
           "id": 23,
           "name": "Penne Arrabbiata",
           "description": "Penne pasta in a spicy tomato sauce with garlic, chili, and olive oil.",
@@ -211,7 +234,8 @@
           "rating": 4.2
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./pasta3.webp",
           "id": 24,
           "name": "Fettuccine Alfredo",
           "description": "A rich and creamy pasta coated in a buttery Parmesan cheese sauce.",
@@ -219,15 +243,17 @@
           "rating": 4.4
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./pasta4.webp",
           "id": 25,
           "name": "Lasagna Bolognese",
-          "description": "Layered pasta sheets with meat sauce, ricotta, and melted mozzarella cheese.",
+          "description": "Layered pasta sheets with sauce, ricotta, and melted mozzarella cheese.",
           "price": 110,
           "rating": 4.0
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./pasta5.webp",
           "id": 26,
           "name": "Pesto Pasta",
           "description": "Pasta tossed with a vibrant basil pesto sauce, pine nuts, and Parmesan.",
@@ -235,18 +261,20 @@
           "rating": 4.2
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./pasta6.webp",
           "id": 27,
           "name": "Ravioli",
-          "description": "Stuffed pasta pockets filled with cheese, meat, or vegetables, served with marinara or butter sauce.",
+          "description": "Stuffed pasta pockets filled with cheese, or vegetables, served with marinara or butter.",
           "price": 150,
           "rating": 4.4
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./pasta7.webp",
           "id": 28,
           "name": "Seafood Linguine",
-          "description": "A delightful mix of linguine, shrimp, mussels, and clams in a garlic white wine sauce.",
+          "description": "A mix of linguine, shrimp, mussels, and clams in a garlic white wine sauce.",
           "price": 250,
           "rating": 4.0
         }
@@ -258,7 +286,8 @@
       "name": "Burgers",
       "items": [
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./burger1.webp",
           "id": 29,
           "name": "Classic Cheeseburger",
           "description": "A timeless favorite with a juicy beef patty, melted cheese, lettuce, tomato, and pickles.",
@@ -266,7 +295,8 @@
           "rating": 4.0
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./burger2.webp",
           "id": 30,
           "name": "Bacon BBQ Burger",
           "description": "Smoky bacon, tangy barbecue sauce, and crispy onion rings on a grilled beef patty.",
@@ -274,7 +304,8 @@
           "rating": 4.2
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./burger3.webp",
           "id": 31,
           "name": "Veggie Burger",
           "description": "A hearty plant-based patty topped with fresh veggies and a zesty sauce.",
@@ -282,15 +313,17 @@
           "rating": 4.4
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./burger4.webp",
           "id": 32,
           "name": "Mushroom Swiss Burger",
-          "description": "A savory delight with sautéed mushrooms, melted Swiss cheese, and creamy garlic aioli.",
+          "description": "A savory delight with sautéed mushrooms, melted Swiss cheese, and garlic aioli.",
           "price": 130,
           "rating": 4.0
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./burger5.webp",
           "id": 33,
           "name": "Spicy Jalapeño Burger",
           "description": "Packed with heat, featuring jalapeños, pepper jack cheese, and spicy mayo.",
@@ -298,7 +331,8 @@
           "rating": 4.2
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./burger6.webp",
           "id": 34,
           "name": "Chicken Avocado Burger",
           "description": "Grilled chicken breast, creamy avocado, lettuce, and a hint of lime.",
@@ -306,7 +340,8 @@
           "rating": 4.4
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./burger7.webp",
           "id": 35,
           "name": "Double-Decker Burger",
           "description": "Two bacon patties, double the cheese, and all the classic toppings for a hearty bite.",
@@ -321,7 +356,8 @@
       "name": "Pizza",
       "items": [
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./pizza1.webp",
           "id": 36,
           "name": "Margherita Pizza",
           "description": "A classic Italian pizza with fresh mozzarella, tomatoes, and basil on a thin crust.",
@@ -329,15 +365,17 @@
           "rating": 4.0
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./pizza2.webp",
           "id": 37,
           "name": "Pepperoni Pizza",
-          "description": "A crowd favorite, topped with spicy pepperoni slices and gooey mozzarella cheese.",
+          "description": "A crowd favorite, topped with spicy pepperoni slices and mozzarella cheese.",
           "price": 150,
           "rating": 4.2
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./pizza3.webp",
           "id": 38,
           "name": "BBQ Chicken Pizza",
           "description": "Smoky barbecue sauce, grilled chicken, red onions, and cilantro for a bold flavor.",
@@ -345,7 +383,8 @@
           "rating": 4.4
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./pizza4.webp",
           "id": 39,
           "name": "Veggie Supreme Pizza",
           "description": "Loaded with bell peppers, mushrooms, onions, olives, and fresh tomatoes.",
@@ -353,7 +392,8 @@
           "rating": 4.0
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./pizza5.webp",
           "id": 40,
           "name": "Meat Lover's Pizza",
           "description": "A hearty mix of pepperoni, sausage, bacon and ham.",
@@ -361,7 +401,8 @@
           "rating": 4.2
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./pizza6.webp",
           "id": 41,
           "name": "Hawaiian Pizza",
           "description": "A sweet and savory combo of ham, pineapple, and melted cheese.",
@@ -369,7 +410,8 @@
           "rating": 4.4
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./pizza7.webp",
           "id": 42,
           "name": "Four Cheese Pizza",
           "description": "A rich blend of mozzarella, Parmesan, gorgonzola, and ricotta on a golden crust.",
@@ -384,7 +426,8 @@
       "name": "Seafood",
       "items": [
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./sea1.webp",
           "id": 43,
           "name": "Grilled Salmon",
           "description": "Perfectly grilled salmon fillet with a hint of lemon and herbs.",
@@ -392,7 +435,8 @@
           "rating": 4.0
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./sea2.webp",
           "id": 44,
           "name": "Shrimp Scampi",
           "description": "Juicy shrimp sautéed in garlic butter and white wine sauce, served over pasta.",
@@ -400,7 +444,8 @@
           "rating": 4.2
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./sea3.webp",
           "id": 45,
           "name": "Fish Tacos",
           "description": "Crispy or grilled fish topped with slaw, lime crema, and fresh salsa in soft tortillas.",
@@ -408,7 +453,8 @@
           "rating": 4.4
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./sea31.webp",
           "id": 46,
           "name": "Lobster Bisque",
           "description": "A creamy and luxurious soup made with fresh lobster and a touch of sherry.",
@@ -416,7 +462,8 @@
           "rating": 4.0
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./sea4.webp",
           "id": 47,
           "name": "Crab Cakes",
           "description": "Golden-fried patties packed with succulent crab meat and spices.",
@@ -424,7 +471,8 @@
           "rating": 4.2
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./sea6.webp",
           "id": 48,
           "name": "Seafood Paella",
           "description": "A Spanish classic with saffron-infused rice, shrimp, mussels, and squid.",
@@ -432,7 +480,8 @@
           "rating": 4.4
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./sea7.webp",
           "id": 49,
           "name": "Oysters Rockefeller",
           "description": "Baked oysters topped with a savory mixture of spinach, herbs, and breadcrumbs.",
@@ -447,7 +496,8 @@
       "name": "Sandwiches",
       "items": [
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./sandwich1.webp",
           "id": 50,
           "name": "Club Sandwich",
           "description": "A triple-layered sandwich with turkey, bacon, lettuce, tomato, and mayo.",
@@ -455,7 +505,8 @@
           "rating": 4.0
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./sandwich2.webp",
           "id": 51,
           "name": "Grilled Cheese Sandwich ",
           "description": "Golden-toasted bread with gooey, melted cheese inside.",
@@ -463,7 +514,8 @@
           "rating": 4.2
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./sandwich3.webp",
           "id": 52,
           "name": "Chicken Caesar Wrap ",
           "description": "Grilled chicken, romaine lettuce, and Caesar dressing in a soft tortilla.",
@@ -471,7 +523,8 @@
           "rating": 4.4
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./sandwich4.webp",
           "id": 53,
           "name": "Veggie Panini",
           "description": "Veggie Panini",
@@ -479,7 +532,8 @@
           "rating": 4.0
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./sandwich5.webp",
           "id": 54,
           "name": "Tuna Melt",
           "description": "A  hearty tuna salad topped with melted cheese on toasted bread.",
@@ -487,7 +541,8 @@
           "rating": 4.2
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./sandwich6.webp",
           "id": 55,
           "name": "BLT Sandwich ",
           "description": "Crispy bacon, lettuce, and tomato with mayo on toasted bread.",
@@ -495,7 +550,8 @@
           "rating": 4.4
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./sandwich7.webp",
           "id": 56,
           "name": "Egg Salad Sandwich ",
           "description": "Creamy egg salad stuffed between soft slices of bread.",
@@ -510,7 +566,8 @@
       "name": "Desserts",
       "items": [
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./des1.webp",
           "id": 57,
           "name": "Chocolate Lava Cake",
           "description": "A decadent cake with a gooey chocolate center.",
@@ -518,7 +575,8 @@
           "rating": 4.0
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./des2.webp",
           "id": 58,
           "name": "Tiramisu",
           "description": "A creamy Italian dessert with coffee-soaked ladyfingers and mascarpone.",
@@ -526,7 +584,8 @@
           "rating": 4.2
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./des3.webp",
           "id": 59,
           "name": "Cheesecake",
           "description": "A rich and creamy dessert with a buttery graham cracker crust.",
@@ -534,7 +593,8 @@
           "rating": 4.4
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./des5.webp",
           "id": 60,
           "name": "Panna Cotta ",
           "description": "A silky Italian custard dessert topped with fruit or caramel.",
@@ -542,7 +602,8 @@
           "rating": 4.0
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./des51.webp",
           "id": 61,
           "name": "Macarons ",
           "description": "Light almond meringue cookies with creamy fillings.",
@@ -550,7 +611,8 @@
           "rating": 4.2
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./des6.webp",
           "id": 62,
           "name": "Gulab Jamun",
           "description": "Deep-fried milk-based dumplings soaked in sugary syrup.",
@@ -558,7 +620,8 @@
           "rating": 4.4
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./des7.webp",
           "id": 63,
           "name": "Ice Cream Sundae",
           "description": "Ice cream topped with sauces, nuts, and a cherry on top.",
@@ -573,7 +636,8 @@
       "name": "Drinks",
       "items": [
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./drink1.webp",
           "id": 64,
           "name": "Mojito",
           "description": "A  refreshing mix of lime, mint, sugar, and soda.",
@@ -581,7 +645,8 @@
           "rating": 4.0
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./drink2.webp",
           "id": 65,
           "name": "Pina Colada",
           "description": "A tropical drink with pineapple, coconut, and a hint of rum.",
@@ -589,7 +654,8 @@
           "rating": 4.2
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./drink3.webp",
           "id": 66,
           "name": "Iced Coffee",
           "description": "A chilled coffee drink with milk and sugar.",
@@ -597,7 +663,8 @@
           "rating": 4.4
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./drink4.webp",
           "id": 67,
           "name": "Green Tea Lemonade",
           "description": "A healthy blend of green tea and fresh lemon juice.",
@@ -605,7 +672,8 @@
           "rating": 4.0
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./drink5.webp",
           "id": 68,
           "name": "Fruit Smoothie ",
           "description": "A creamy blend of mixed fruits, yogurt, and honey.",
@@ -613,7 +681,8 @@
           "rating": 4.2
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./drink6.webp",
           "id": 69,
           "name": "Mango Lassi",
           "description": "A sweet Indian yogurt-based mango drink.",
@@ -621,7 +690,8 @@
           "rating": 4.4
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./drink7.webp",
           "id": 70,
           "name": "Hot Chocolate",
           "description": "A cozy drink made with milk, cocoa, and whipped cream.",
@@ -636,7 +706,8 @@
       "name": "Breakfast",
       "items": [
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./breakfast1.webp",
           "id": 71,
           "name": "Pancakes",
           "description": "Fluffy pancakes served with syrup and fresh fruits.",
@@ -644,7 +715,8 @@
           "rating": 4.0
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./breakfast2.webp",
           "id": 72,
           "name": "French Toast",
           "description": "Bread dipped in egg batter, fried, and topped with syrup or sugar.",
@@ -652,7 +724,8 @@
           "rating": 4.2
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./breakfast3.webp",
           "id": 73,
           "name": "Omelette",
           "description": "A folded egg dish filled with cheese, veggies, or meat.",
@@ -660,7 +733,8 @@
           "rating": 4.4
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./breakfast4.webp",
           "id": 74,
           "name": "Bagel with Cream Cheese",
           "description": "A toasted bagel smeared with creamy cheese.",
@@ -668,7 +742,8 @@
           "rating": 4.0
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./breakfast5.webp",
           "id": 75,
           "name": "Avocado Toast ",
           "description": "Toast topped with mashed avocado, olive oil, and spices.",
@@ -676,7 +751,8 @@
           "rating": 4.2
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./breakfast6.webp",
           "id": 76,
           "name": "Smoothie Bowl",
           "description": "A thick smoothie topped with fruits, nuts, and granola.",
@@ -684,7 +760,8 @@
           "rating": 4.4
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./breakfast7.webp",
           "id": 77,
           "name": "Breakfast Burrito",
           "description": "A tortilla filled with scrambled eggs, bacon, cheese, and salsa.",
@@ -699,7 +776,8 @@
       "name": "Indian",
       "items": [
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./ind1.webp",
           "id": 78,
           "name": "Butter Chicken ",
           "description": "A creamy tomato-based curry with tender chicken.",
@@ -707,7 +785,8 @@
           "rating": 4.0
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./ind2.webp",
           "id": 79,
           "name": "Biryani ",
           "description": "Spiced rice with layers of marinated meat or vegetables.",
@@ -715,7 +794,8 @@
           "rating": 4.2
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./ind3.webp",
           "id": 80,
           "name": "Paneer Tikka",
           "description": "Grilled Indian cottage cheese with spices.",
@@ -723,7 +803,8 @@
           "rating": 4.4
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./ind4.webp",
           "id": 81,
           "name": "Masala Dosa ",
           "description": "A crispy rice crepe stuffed with spiced potato filling.",
@@ -731,7 +812,8 @@
           "rating": 4.0
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./ind5.webp",
           "id": 82,
           "name": "Palak Paneer",
           "description": "Cottage cheese in a creamy spinach gravy.",
@@ -739,7 +821,8 @@
           "rating": 4.2
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./ind6.webp",
           "id": 83,
           "name": "Rogan Josh",
           "description": "A flavorful lamb curry with aromatic spices.",
@@ -747,7 +830,8 @@
           "rating": 4.4
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./ind7.webp",
           "id": 84,
           "name": "Chole Bhature",
           "description": "Spicy chickpeas served with deep-fried bread.",
@@ -762,7 +846,8 @@
       "name": "Momos",
       "items": [
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./momos1.webp",
           "id": 85,
           "name": "Steamed Veg Momos",
           "description": "Soft dumplings filled with vegetables and served with spicy chutney",
@@ -770,7 +855,8 @@
           "rating": 4.0
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./momos2.webp",
           "id": 86,
           "name": "Chicken Momos",
           "description": "Juicy chicken-filled dumplings steamed to perfection.",
@@ -778,7 +864,8 @@
           "rating": 4.2
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./momos3.webp",
           "id": 87,
           "name": "Fried Momos",
           "description": "Crispy deep-fried dumplings with spicy filling.",
@@ -786,7 +873,8 @@
           "rating": 4.4
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./momos4.webp",
           "id": 88,
           "name": "Tandoori Momos",
           "description": "Smoky momos marinated in spices and grilled in a tandoor.",
@@ -794,7 +882,8 @@
           "rating": 4.0
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./momos5.webp",
           "id": 89,
           "name": "Cheese Momos",
           "description": "Melted cheese stuffed in soft dumpling wrappers.",
@@ -802,14 +891,17 @@
           "rating": 4.2
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./momos6.webp",
           "id": 90,
-          "name": "Paneer Indian cottage cheese-filled dumplings.",
+          "name": "Paneer Momos",
+          "description": "Paneer Indian cottage cheese-filled dumplings.",
           "price": 150,
           "rating": 4.4
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./momos7.webp",
           "id": 91,
           "name": "Soup Momos",
           "description": "Momos served in a hot, flavorful broth.",
@@ -824,7 +916,8 @@
       "name": "Noodles",
       "items": [
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./nod1.webp",
           "id": 92,
           "name": "Hakka Noodles",
           "description": "Stir-fried noodles with vegetables and soy sauce.",
@@ -832,15 +925,17 @@
           "rating": 4.0
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./nod2.webp",
           "id": 93,
           "name": "Chow Mein",
-          "description": "Crispy noodles tossed with meat and vegetables.",
+          "description": "Crispy noodles tossed with vegetables.",
           "price": 160,
           "rating": 4.2
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./nod3.webp",
           "id": 94,
           "name": "Pad Thai ",
           "description": "Thai-style stir-fried rice noodles with tamarind sauce.",
@@ -848,7 +943,8 @@
           "rating": 4.4
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./nod4.webp",
           "id": 95,
           "name": "Ramen",
           "description": "Japanese noodle soup with meat, eggs, and veggies.",
@@ -856,7 +952,8 @@
           "rating": 4.0
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./nod5.webp",
           "id": 96,
           "name": "Singapore Noodles",
           "description": "Spicy curried noodles with shrimp and vegetables.",
@@ -864,7 +961,8 @@
           "rating": 4.2
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./nod6.webp",
           "id": 97,
           "name": "Udon Noodles",
           "description": "Thick Japanese noodles in a light broth or stir-fried.",
@@ -872,7 +970,8 @@
           "rating": 4.4
         },
         {
-          "imgSrc": "",
+          "isVeg": true,
+          "imgSrc": "./nod7.webp",
           "id": 98,
           "name": "Glass Noodles ",
           "description": "Transparent noodles made from mung beans, stir-fried with veggies.",
@@ -887,7 +986,8 @@
       "name": "Chicken",
       "items": [
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./ch1.webp",
           "id": 99,
           "name": "Grilled Chicken",
           "description": "Marinated chicken grilled to perfection with smoky flavors.",
@@ -895,7 +995,8 @@
           "rating": 4.0
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./ch2.webp",
           "id": 100,
           "name": "Chicken Wings",
           "description": "Crispy, spicy, and flavorful chicken wings.",
@@ -903,7 +1004,8 @@
           "rating": 4.2
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./ch3.webp",
           "id": 101,
           "name": "Chicken Curry",
           "description": "A rich and spiced curry with tender chicken pieces.",
@@ -911,7 +1013,8 @@
           "rating": 4.4
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./ch4.webp",
           "id": 102,
           "name": "Chicken Biryani ",
           "description": "Aromatic rice layered with spiced chicken.",
@@ -919,7 +1022,8 @@
           "rating": 4.0
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./ch5.webp",
           "id": 103,
           "name": "Chicken Alfredo",
           "description": "Creamy pasta with grilled chicken and Parmesan.",
@@ -927,7 +1031,8 @@
           "rating": 4.2
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./ch6.webp",
           "id": 104,
           "name": "Fried Chicken",
           "description": "Crispy, golden-brown chicken with a crunchy coating.",
@@ -935,7 +1040,8 @@
           "rating": 4.4
         },
         {
-          "imgSrc": "",
+          "isVeg": false,
+          "imgSrc": "./ch7.webp",
           "id": 105,
           "name": "Chicken Tikka",
           "description": "Juicy, spiced chicken skewers cooked in a tandoor.",

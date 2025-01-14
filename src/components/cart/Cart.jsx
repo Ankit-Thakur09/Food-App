@@ -1,45 +1,37 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import {
-  deleteAll,
-  setTotals,
-} from "../../feature/CounterThis";
-import { useNavigate } from "react-router-dom";
+import { deleteAll, setTotals } from "../../feature/CounterThis";
+import { NavLink, useNavigate } from "react-router-dom";
 import Counter from "../counter/Counter";
 
-
-
 function Cart() {
-  
   // Get the cart items from Redux state
-    const [errorMessage, setErrorMessage] = useState(false);
+  const [errorMessage, setErrorMessage] = useState(false);
   const [message, setMessage] = useState(false);
 
-
   const cart = useSelector((state) => state.counter.cart);
- 
+
   const dispatch = useDispatch();
   const totalQuantity = useSelector((state) => state.counter.totalQuantity);
   const totalPrice = useSelector((state) => state.counter.totalPrice);
 
-    const navigate = useNavigate();
+  const navigate = useNavigate();
 
   const handleProceed = () => {
-  if (cart.length === 0) {
-    setErrorMessage(true);
-     setTimeout(() => {
-       setErrorMessage(false);
-     }, 2000);
-    
-  } else {
-    setMessage(true);
+    if (cart.length === 0) {
+      setErrorMessage(true);
+      setTimeout(() => {
+        setErrorMessage(false);
+      }, 2000);
+    } else {
+      setMessage(true);
       setTimeout(() => {
         setMessage(false); // Clear the message before navigating
         navigate("/checkout");
       }, 2000);
-  }
-    };
-  
+    }
+  };
+
   useEffect(() => {
     dispatch(setTotals({ totalQuantity, totalPrice }));
   }, [dispatch, totalQuantity, totalPrice]);
@@ -49,8 +41,8 @@ function Cart() {
   };
   // const handleDelete = (item) => {
   //   dispatch(deleteCard(item.text));
-    
-  //   dispatch(selectCard(null)); 
+
+  //   dispatch(selectCard(null));
   // };
 
   return (
@@ -67,21 +59,97 @@ function Cart() {
           : ""}
       </div>
       <div className="flex flex-col-reverse md:flex-row py-5 px-4 gap-6">
-        <div className="w-full md:w-2/3 border border-gray-200 py-6 rounded-lg bg-gray-50 shadow-lg">
-          <div className="h-[39vh] md:h-[55vh] overflow-y-auto p-4">
+        <div className="w-full md:w-2/3 border border-gray-200 rounded-lg bg-gray-50 shadow-lg">
+          <div className="h-[39vh] md:h-[55vh] overflow-y-auto ">
             {cart.length === 0 ? (
-              <p className="h-full flex justify-center items-center font-semibold text-lg text-gray-500">
-                Your cart is empty.
-              </p>
+              <div className="h-full flex flex-col  font-semibold text-lg text-gray-500 relative">
+                {/* <div className="bg-blue-300 h-full w-full overflow-hidden flex opacity-50">
+                  <div className="w-1/3  ">
+                    <div className="flex p-5 justify-center w-full">
+                      {" "}
+                      <img
+                        src="./f1.webp"
+                        className="w-10 md:w-20 rotate-[20deg]"
+                        alt=""
+                      />
+                    </div>
+
+                    <div className="flex p-3 justify-between w-full">
+                      <img
+                        src="./f2.webp"
+                        className="w-[10vw] md:w-20 -rotate-[30deg]"
+                        alt=""
+                      />
+                      <img
+                        src="./f4.webp"
+                        alt=""
+                        className="w-10 md:w-20 rotate-[35deg]"
+                      />
+                    </div>
+                    <div className="flex justify-center p-5 ml-8 w-full">
+                      {" "}
+                      <img
+                        src="./f3.webp"
+                        className="w-10 md:w-20 rotate-45"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div className="w-1/3  ">
+                   
+                    <img
+                      src="./f5.webp"
+                      alt=""
+                      className="w-10 md:w-20 rotate-45"
+                    />
+                    <img
+                      src="./f6.webp"
+                      alt=""
+                      className="w-10 md:w-20 rotate-45"
+                    />
+                    <img
+                      src="./f7.webp"
+                      alt=""
+                      className="w-10 md:w-20 rotate-45"
+                    />
+                  </div>
+                  <div className="w-1/3  ">
+                    <img
+                      src="./f9.webp"
+                      alt=""
+                      className="w-10 md:w-20 rotate-45"
+                    />
+                    <img
+                      src="./f8.webp"
+                      alt=""
+                      className="w-10 md:w-20 rotate-45"
+                    />
+                    <img
+                      src="./f10.webp"
+                      alt=""
+                      className="w-10 md:w-20 rotate-45"
+                    />
+                  </div>
+                </div> */}
+                <div className="flex flex-col justify-center items-center absolute inset-0">
+                  <span>Your cart is empty.</span>
+                  <span>
+                    Click here to
+                    <NavLink to="/menu" className="underline text-orange-400">
+                      View Menu
+                    </NavLink>
+                  </span>
+                </div>
+              </div>
             ) : (
               cart.map((item, index) => (
                 <div
                   key={index}
-                  className="flex gap-4 pb-4 border-b border-gray-300 items-center"
+                  className="flex gap-4  border-b border-gray-300 items-center p-4"
                 >
                   {/* Item Image and Index */}
-                  <div className="w-1/3 flex items-center">
-                    <span className="text-center font-medium text-gray-500 w-6">
+                  <div className="w-1/3 flex items-center ">
+                    <span className="text-center font-medium text-gray-500 w-6 p-1">
                       {index + 1}
                     </span>
                     <img
@@ -92,7 +160,7 @@ function Cart() {
                   </div>
 
                   {/* Item Details */}
-                  <div className="w-2/3 flex flex-col md:flex-row gap-2">
+                  <div className="w-2/3 flex flex-col md:flex-row gap-2 p-2">
                     <div className="md:w-1/3 text-gray-800 text-base font-medium">
                       {item.text}
                     </div>

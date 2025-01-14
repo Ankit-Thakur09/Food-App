@@ -55,7 +55,9 @@ useEffect(() => {
   }
 }, [cart, navigate]);
 
-
+  // const handleClear = () => {
+  //   dispatch(deleteAll());
+  // };
 
   return (
     <div className="p-4">

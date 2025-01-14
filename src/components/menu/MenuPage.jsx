@@ -12,6 +12,7 @@ import Loader from "../other/Loader";
 
 function MenuPage({isHidden=true}) {
   const [dishes, setDishes] = useState([]);
+  
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [categories, setCategories] = useState([]);
