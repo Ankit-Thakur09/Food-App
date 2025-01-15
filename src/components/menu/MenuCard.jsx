@@ -26,6 +26,7 @@ const MenuCard = ({ dishes, selectedCategory  }) => {
 
     // Always show the first page
     if (currentPage >= 1) pages.push(1);
+    
 
     // Show dots before the current page if it's beyond the initial range
     if (currentPage > maxVisiblePages) pages.push("...");
@@ -39,11 +40,14 @@ const MenuCard = ({ dishes, selectedCategory  }) => {
       pages.push(i);
     }
 
-    // Show dots after the current page if it's not near the end
-    if (currentPage <= totalPages - maxVisiblePages) pages.push("...");
+   if (currentPage <= totalPages - maxVisiblePages && totalPages > 1) {
+     pages.push("...");
+   }
 
-    // Always show the last page
-    if (currentPage <= totalPages) pages.push(totalPages);
+   // Always show the last page if there are multiple pages
+   if (totalPages > 1 && currentPage <= totalPages) {
+     pages.push(totalPages);
+   }
 
     return pages;
   };

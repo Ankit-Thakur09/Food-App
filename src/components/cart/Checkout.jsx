@@ -131,24 +131,34 @@ const Checkout = () => {
         <h1 className="text-4xl font-bold text-orange-800 text-center mb-4">
           Complete Your Order
         </h1>
-        <p className="text-center text-orange-600 mb-8">Your delicious meal is just a few steps away!</p>
+        <p className="text-center text-orange-600 mb-8">
+          Your delicious meal is just a few steps away!
+        </p>
 
         <StepIndicator />
 
-        <div className="flex gap-8">
+        <div className="flex gap-8 flex-col md:flex-row-reverse">
           {/* Left Column - Order Summary */}
-          <div className="w-1/3">
-            <div className="bg-white p-6 rounded-lg shadow-lg border border-orange-100 sticky top-6">
-              <h2 className="text-2xl font-bold text-orange-800 mb-4">Your Order</h2>
+          <div className=" w-full md:w-1/3">
+            <div className="bg-white p-6 rounded-lg shadow-lg border border-orange-100  sticky top-20">
+              <h2 className="text-2xl font-bold text-orange-800 mb-4">
+                Your Order
+              </h2>
               {cart.map((item) => (
-                <div key={item.id} className="flex justify-between items-center mb-3 border-b border-orange-100 pb-2">
+                <div
+                  key={item.id}
+                  className="flex justify-between items-center mb-3 border-b border-orange-100 pb-2"
+                >
                   <div className="flex items-center">
                     <Utensils className="w-4 h-4 text-orange-500 mr-2" />
                     <span className="text-gray-700 font-medium">
-                      {item.text} <span className="text-orange-500">×{item.quantity}</span>
+                      {item.text}{" "}
+                      <span className="text-orange-500">×{item.quantity}</span>
                     </span>
                   </div>
-                  <span className="text-orange-800 font-semibold">₹{item.price * item.quantity}</span>
+                  <span className="text-orange-800 font-semibold">
+                    ₹{item.price * item.quantity}
+                  </span>
                 </div>
               ))}
               <div className="flex justify-between items-center mt-4 text-lg font-bold bg-orange-50 p-4 rounded-lg">
@@ -159,12 +169,19 @@ const Checkout = () => {
           </div>
 
           {/* Right Column - Form */}
-          <div className="w-2/3">
-            <form className="bg-white p-6 rounded-lg shadow-lg space-y-6 border border-orange-100" onSubmit={handleSubmit}>
+          <div className="w-full md:w-2/3 ">
+            <form
+              className="bg-white p-6 rounded-lg shadow-lg space-y-6 border border-orange-100"
+              onSubmit={handleSubmit}
+            >
               <div className="space-y-6">
-                <h3 className="text-xl font-semibold text-orange-800">Personal Details</h3>
+                <h3 className="text-xl font-semibold text-orange-800">
+                  Personal Details
+                </h3>
                 <div>
-                  <label className="block text-orange-800 font-medium mb-2">Full Name</label>
+                  <label className="block text-orange-800 font-medium mb-2">
+                    Full Name
+                  </label>
                   <input
                     type="text"
                     name="name"
@@ -176,11 +193,15 @@ const Checkout = () => {
                     } focus:outline-none focus:ring-2 focus:ring-orange-500`}
                     placeholder="Enter your full name"
                   />
-                  {errors.name && <p className="text-red-500 text-sm mt-2">{errors.name}</p>}
+                  {errors.name && (
+                    <p className="text-red-500 text-sm mt-2">{errors.name}</p>
+                  )}
                 </div>
 
                 <div>
-                  <label className="block text-orange-800 font-medium mb-2">Email Address</label>
+                  <label className="block text-orange-800 font-medium mb-2">
+                    Email Address
+                  </label>
                   <input
                     type="email"
                     name="email"
@@ -192,11 +213,15 @@ const Checkout = () => {
                     } focus:outline-none focus:ring-2 focus:ring-orange-500`}
                     placeholder="Enter your email address"
                   />
-                  {errors.email && <p className="text-red-500 text-sm mt-2">{errors.email}</p>}
+                  {errors.email && (
+                    <p className="text-red-500 text-sm mt-2">{errors.email}</p>
+                  )}
                 </div>
 
                 <div>
-                  <label className="block text-orange-800 font-medium mb-2">Delivery Address</label>
+                  <label className="block text-orange-800 font-medium mb-2">
+                    Delivery Address
+                  </label>
                   <textarea
                     name="address"
                     value={formData.address}
@@ -208,14 +233,22 @@ const Checkout = () => {
                     placeholder="Enter your delivery address"
                     rows="3"
                   ></textarea>
-                  {errors.address && <p className="text-red-500 text-sm mt-2">{errors.address}</p>}
+                  {errors.address && (
+                    <p className="text-red-500 text-sm mt-2">
+                      {errors.address}
+                    </p>
+                  )}
                 </div>
               </div>
 
               <div className="space-y-6 pt-6 border-t border-orange-100">
-                <h3 className="text-xl font-semibold text-orange-800">Payment Details</h3>
+                <h3 className="text-xl font-semibold text-orange-800">
+                  Payment Details
+                </h3>
                 <div>
-                  <label className="block text-orange-800 font-medium mb-2">Payment Method</label>
+                  <label className="block text-orange-800 font-medium mb-2">
+                    Payment Method
+                  </label>
                   <select
                     name="paymentMethod"
                     value={formData.paymentMethod}

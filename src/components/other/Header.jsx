@@ -40,6 +40,7 @@ function Header() {
             >
               <NavLink
                 to="/"
+                onClick={() => setIsOpen(false)}
                 className={({ isActive }) =>
                   `p-2 m-1  ${isActive ? " font-bold text-orange-400" : ""}`
                 }
@@ -48,6 +49,7 @@ function Header() {
               </NavLink>
               <NavLink
                 to="/menu"
+                onClick={() => setIsOpen(false)}
                 className={({ isActive }) =>
                   `p-2 m-1  ${isActive ? "font-bold text-orange-400" : ""}`
                 }
@@ -56,6 +58,7 @@ function Header() {
               </NavLink>
               <NavLink
                 to="/contactus"
+                onClick={() => setIsOpen(false)}
                 className={({ isActive }) =>
                   `p-2 m-1  ${isActive ? " font-bold text-orange-400" : ""}`
                 }
@@ -64,6 +67,7 @@ function Header() {
               </NavLink>
               <NavLink
                 to="/about"
+                onClick={() => setIsOpen(false)}
                 className={({ isActive }) =>
                   `p-2 m-1  ${isActive ? " font-bold text-orange-400" : ""}`
                 }
@@ -72,6 +76,7 @@ function Header() {
               </NavLink>
               <NavLink
                 to="/cart"
+                onClick={() => setIsOpen(false)}
                 className={({ isActive }) =>
                   `md:py-2 md:my-1.5  ${
                     isActive ? " font-bold text-orange-400" : ""
@@ -79,7 +84,11 @@ function Header() {
                 }
               >
                 <TiShoppingCart className="text-2xl md:mx-auto" />
-                <span className={`text-orange-400 text-xl font-bold ${cartNum?"":"hidden"}`}>
+                <span
+                  className={`text-orange-400 text-xl font-bold ${
+                    cartNum ? "" : "hidden"
+                  }`}
+                >
                   <sup>{cart}</sup>
                 </span>
               </NavLink>
