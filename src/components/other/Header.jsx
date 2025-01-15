@@ -26,7 +26,7 @@ function Header() {
  
   return (
     <>
-      <div className="flex justify-between font-semibold bg-slate-200 text-white md:items-center p-2 fixed z-40 opacity-80 w-full">
+      <div className="flex justify-between font-semibold bg-red-50 text-gray-700 md:items-center p-2 fixed z-40 opacity-80 w-full">
         <div className="flex text-red-500 md:text-lg font-bold">MyApp</div>
         <div>
           <nav className="text-right font-semibold md:text-lg  text-black">
